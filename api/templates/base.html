@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}PlacaMar{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <header>
+        <h1><a href="{% url 'home' %}">PlacaMar</a></h1>
+        <nav>
+            <ul>
+                {% if user.is_authenticated %}
+                    <li><a href="{% url 'logout' %}">Sair</a></li>
+                {% else %}
+                    <li><a href="{% url 'login' %}">Entrar</a></li>
+                    <li><a href="{% url 'cadastro' %}">Cadastrar</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; 2025 PlacaMar. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
