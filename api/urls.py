@@ -1,7 +1,6 @@
-from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
+from .views import geojson_placas_view
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('api/placas/', include('api.placas.urls')),
+    path('placas/', geojson_placas_view),
 ]

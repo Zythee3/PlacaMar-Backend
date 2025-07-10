@@ -1,10 +1,6 @@
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from .models import Placa
-from .serializers import PlacaSerializer
+from django.urls import path
+from .views import PlacaListView
 
-class PlacaListView(APIView):
-    def get(self, request):
-        placas = Placa.objects.all()
-        serializer = PlacaSerializer(placas, many=True)
-        return Response(serializer.data)
+urlpatterns = [
+    path('placas/', PlacaListView.as_view(), name='placa-list'),
+]

@@ -1,0 +1,2000 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.06540524853735,
+          -8.672915796625139
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.1 Piscina Aver o mar - Banhista",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08796204426231,
+          -8.722402613425487
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.2 Campas/Divisa Carneiros – Embarque/Desembarque",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08783691007638,
+          -8.723159527595229
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.3 Campas/hotel - Norte - Banhistas",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08939052918979,
+          -8.727368050534505
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.4 Campas/hotel – Sul - Banhistas",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08711094898801,
+          -8.738674211933159
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S.1.1.5. Amendoeira - Embarque/desembarque",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08667309824186,
+          -8.742122175364095
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.6. Marina 1 Igrejinha - Apoitamento/abicagem",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08639131861116,
+          -8.744702251561396
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.7. Marina 2 Igrejinha - Apoitamento /abicagem",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08905405361428,
+          -8.75045437653153
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.8. Jangadeiros - Embarque/desembarque",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08956126348416,
+          -8.751043430227877
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.9 Quiosques Tamandaré 1 - Banhista",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0899606150802,
+          -8.751198134725282
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.10 Projeto Praia sem Barreiras",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09088162053975,
+          -8.75235368547245
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.11 Quiosques Tamandaré 2 - Banhista",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09134650051984,
+          -8.752937273812712
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.12. Turismo de base comunitária Quiosques Tamandaré - Embarque/desembarque",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09274436564484,
+          -8.75589663870391
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.13. Marina 3 -Pontal Maceió - Apoitamento/abicagem",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09625034673888,
+          -8.75918493131664
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.14. Forte de Tamandaré - Embarque/ desembarque",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09690130129224,
+          -8.759377689631432
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.15. Forte de Tamandaré - Banhista",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08094034969417,
+          -8.742484485505601
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.16. Piscina - Pirambu do Norte – Banhista",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0838134926591,
+          -8.745824925566293
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.17. Piscina – da Val 4 - Banhista",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08372157259763,
+          -8.747024350109161
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.18. Piscina – da Val 3/Matafome- Atividade de mergulho livre",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08513484244048,
+          -8.749254859265012
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.19. Piscina – da Val 2/Prainha- Banhista",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0850587910121,
+          -8.75115091825737
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.20. Piscina - da Val 1 – Banhista",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0874180168235,
+          -8.758075078647616
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.21. Piscina - Pirambu do Sul - Atividade de mergulho livre",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.089258284488,
+          -8.75909974082005
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.22. Três Cabeços - Atividade de mergulho livre",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08906673831002,
+          -8.76077571470832
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.23. Piscina do Forte 1 – Banhista",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09178140888824,
+          -8.761133890092204
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.1.24. Piscina do Forte 2 – Atividade de mergulho livre",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09419702041221,
+          -8.757568044224046
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 1B",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08805365975832,
+          -8.749231496629742
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 2B",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0866344130329,
+          -8.745641622003737
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 3B",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0871448221489,
+          -8.742664828707706
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "4B",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07139939490308,
+          -8.670109415453286
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 5B",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07110215038011,
+          -8.670813648637981
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "1.2.1 Gamela/A Ver o Mar - Banhista",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07117027942801,
+          -8.671472369918202
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.2.2 Gamela/A Ver o Mar – Embarque/desembarque",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07067281887688,
+          -8.66933598658932
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.2.3 Gamela/A Ver o Mar – Embarque/desembarque de embarcação de turismo",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07931025777627,
+          -8.68853064280536
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.2.4 Tejucussú Proteção do Banco de Areia",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08860531576772,
+          -8.734556199220151
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.2.5 Banana Boat – Quiosque do fusca – Embarque/desembarque",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08763982251233,
+          -8.731900218270644
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 1.2.6 Banana Boat - Campas",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10456950857963,
+          -8.69621913846214
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.1.1 Mangueira - E/D Turismo de Base Comunitária e Pesca Artesanal",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10480994661071,
+          -8.6991053707923
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.1.2 Amaragi - E/D  Turismo de Base Comunitária e Pesca Artesanal",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10422178141528,
+          -8.70897176715346
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "2.1.3 Porto da Folha",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09661079127817,
+          -8.70995073612555
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.1.4 Toca de Baixo - Zona de Preservaçao da Vida Estuarina (ZPVE) do Santuario do Mero",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1222890459909,
+          -8.671941148174735
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.2.1 Pedra do Pipiri/Margaída - Zona de Preservaçao da Vida Estuarina (ZPVE) do Santuario do Mero",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.11229931914659,
+          -8.683945886812124
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.2.2 Nova Holanda - Zona de Preservaçao da Vida Estuarina (ZPVE) do Santuario do Mero",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09628218868382,
+          -8.689560878531477
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.1. Prainha - Brinquedos Náuticos",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09592098858104,
+          -8.689791441403102
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.2 Prainha –Banhistas",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09538378355049,
+          -8.689842737785757
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.3. Prainha - E/D Embarcação de Turismo",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09108478852424,
+          -8.693428330150322
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.4. Igrejinha - Banhistas 1",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08850950918973,
+          -8.694602553234922
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.5 Igrejinha - E/D Embarcação de Turismo",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08650382411549,
+          -8.696281709976175
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.6 Igrejinha - Banhistas 2",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08462321817628,
+          -8.697547013543796
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.7. Restaurante 1 – Banhistas",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08301797555782,
+          -8.698710003515655
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.8 Restaurante 1 –E/D Embarcação de Turismo",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08238358066925,
+          -8.699416613944631
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.9. Restaurante 1 – Brinquedos Náuticos",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08048920207994,
+          -8.701439385480947
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.10. Pontal de Carneiros - E/D Embarcação de Turismo",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07965789065926,
+          -8.701685989081314
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.11. Pontal de Carneiros – Brinquedos Náuticos",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07904941880619,
+          -8.701979113992
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.12. Pontal de Carneiros – Banhistas",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09272826971021,
+          -8.685894446326628
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.13 Argila – Embarque / Desembarque de embarcação de turismo do tipo catamarã",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09241291660068,
+          -8.685973549995484
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.14 Argila - Banhista 1",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09208127810281,
+          -8.686024067686843
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.15 Argila – Embarque / Desembarque de embarcação de turismo miúda",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09189690653511,
+          -8.686075974160943
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.16 Argila – Fundeio de embarcações exclusiva para trabalhadores locais",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09169957520228,
+          -8.68611347686843
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.17 Argila– Embarque / Desembarque de embarcação de turismo miúda",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09141079328106,
+          -8.686201727586205
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.18 Argila - Banhista 2",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09112310213595,
+          -8.686325783842351
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.19 Argila– Embarque / Desembarque de embarcação do tipo catamarã",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09545960321179,
+          -8.684959921509195
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Pier Guadalupe",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1020166388947,
+          -8.684467657336105
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 2.4.21 Píer Mariassú",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07119153063149,
+          -8.669354521941754
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 3.1.1 Aver o Mar - Estacionamento de barcos de pesca",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08193031670787,
+          -8.676975994296972
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 3.2.1 Guadalupe - Proteção dos Terraços Marinhos e Falésias",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08727055629883,
+          -8.748410331556943
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 3.6.1. Tamandaré Pesca 1 - Estacionamento",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08923452743181,
+          -8.750128956386774
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 3.6.2. Jangadeiros Tamandaré 1 – Estacionamento",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09320367324141,
+          -8.755695852610623
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 3.6.3. Jangadeiros Tamandaré 2 - Estacionamento",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09595486269931,
+          -8.758794610142772
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "A.S. 3.6.4. Tamandaré Pesca 2 - Estacionamento",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09666629749,
+          -8.758801795634271
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 01",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09320451516916,
+          -8.755566790385895
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 02",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09149711493925,
+          -8.752457635584353
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 03",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08940314378756,
+          -8.750082795062365
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 04",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08734048644631,
+          -8.748430919878125
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 05",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08682976803746,
+          -8.744826994422656
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 06",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08715164302508,
+          -8.742258015732318
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 07",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08731342844582,
+          -8.73867750076564
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 08",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0889824941865,
+          -8.734925971773386
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 09",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08979284167584,
+          -8.727075268290791
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 10",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08875624502168,
+          -8.723655024992324
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 11",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0852061952472,
+          -8.715891560469865
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 12",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08333823633782,
+          -8.713262280450524
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 13",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08040732476809,
+          -8.710629765250577
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 14",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0793974405003,
+          -8.703792382493873
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 15",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08419217868777,
+          -8.70012322690996
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 16",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08759486547054,
+          -8.697736233384388
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 17",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09599230663765,
+          -8.690124084536611
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 18",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10178213436851,
+          -8.689025535209964
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 19",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10445591205051,
+          -8.69606148976007
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 20",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10511797132154,
+          -8.699113136919642
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 21",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.11195933352088,
+          -8.686239374229277
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 22",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1027204998602,
+          -8.682982044866053
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 23",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09533652291016,
+          -8.684911940950817
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 24",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09158951282154,
+          -8.685791268906081
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 25",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08826410522005,
+          -8.687346214103679
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 26",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08573558694233,
+          -8.688444800530926
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 27",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08400736724838,
+          -8.681475767930252
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 28",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07154944400381,
+          -8.670967360340063
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 29",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0711670962948,
+          -8.66916152076481
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 30",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.02430686026583,
+          -8.61067196778844
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 31",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0241123255593,
+          -8.61166737581692
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 32",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.02346110062023,
+          -8.612186076813972
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 33",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.02143797685288,
+          -8.612639677532242
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 34",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0902252532784,
+          -8.750864685491836
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 1A",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.11468732590242,
+          -8.680231174585574
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 2A",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09060208697581,
+          -8.68629385675966
+        ]
+      },
+      "properties": {
+        "subzona": "Z1",
+        "localidade": "Localidade X",
+        "embarcacoes": 5,
+        "usuarios": 10,
+        "nome_placa": "Placa 25B",
+        "cor": "#FF0000",
+        "descricao": "fffff"
+      }
+    }
+  ]
+}
