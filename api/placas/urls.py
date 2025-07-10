@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import PlacaListView
+from .views import lista_placas
 
 urlpatterns = [
-    path('', PlacaListView.as_view(), name='lista-placas'),
+    path('', lista_placas),
 ]
