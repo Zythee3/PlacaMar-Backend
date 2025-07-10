@@ -1,5 +1,5 @@
 from django.contrib import admin
-from placas.models import Placa
+from api.placas.models import Placa
 
 @admin.register(Placa)
 class PlacaAdmin(admin.ModelAdmin):

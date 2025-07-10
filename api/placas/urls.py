@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import PlacaListAPIView
+from .views import PlacaListView
 
 urlpatterns = [
-    path('', PlacaListAPIView.as_view(), name='lista-placas'),
+    path('', PlacaListView.as_view(), name='lista-placas'),
 ]

@@ -1,4 +1,3 @@
-import os
 from pathlib import Path
 
 # Caminho base do projeto
@@ -22,7 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework_simplejwt',
     'corsheaders',
-    'api',  # Seu app da API
+    'api', 
 ]
 
 # Middleware
@@ -72,7 +71,6 @@ DATABASES = {
         'PORT': '5432',
     }
 }
-AUTH_USER_MODEL = 'api.Usuario'
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',

@@ -1,7 +1,10 @@
-from rest_framework import generics
+from rest_framework.views import APIView
+from rest_framework.response import Response
 from .models import Placa
 from .serializers import PlacaSerializer
 
-class PlacaListAPIView(generics.ListAPIView):
-    queryset = Placa.objects.all()
-    serializer_class = PlacaSerializer
+class PlacaListView(APIView):
+    def get(self, request):
+        placas = Placa.objects.all()
+        serializer = PlacaSerializer(placas, many=True)
+        return Response(serializer.data)

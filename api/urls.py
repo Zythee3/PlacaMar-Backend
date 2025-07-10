@@ -1,5 +1,7 @@
+from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('placas/', include('api.placas.urls')),
+    path('admin/', admin.site.urls),
+    path('api/placas/', include('api.placas.urls')),
 ]
