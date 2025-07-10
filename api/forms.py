@@ -1,7 +1,19 @@
+from django import forms
 from django.contrib.auth.forms import UserCreationForm
-from .models import Usuario
+from api.placas.models import Placa
 
-class UsuarioCreationForm(UserCreationForm):
+
+class PlacaForm(forms.ModelForm):
     class Meta:
-        model = Usuario
-        fields = ['username', 'email']
+        model = Placa
+        fields = [
+            'nome',
+            'latitude',
+            'longitude',
+            'subzona',
+            'localidade',
+            'embarcacoes',
+            'usuarios',
+            'cor',
+            'descricao',
+        ]

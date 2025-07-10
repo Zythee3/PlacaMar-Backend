@@ -1,7 +1,5 @@
-from django.urls import path
-from .views import usuarios_view, dashboard_view
+from django.urls import path, include
 
 urlpatterns = [
-    path('usuarios/', usuarios_view, name='usuarios'),
-    path('dashboard/', dashboard_view, name='dashboard'),
+    path('placas/', include('api.placas.urls')),
 ]
