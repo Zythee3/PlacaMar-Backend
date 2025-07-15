@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'sua_chave_secreta_aqui'
 
 # Definindo o modo de debug
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 APPEND_SLASH = True
@@ -23,7 +23,7 @@ INSTALLED_APPS = [
     'corsheaders',
     'usuarios',
     'api',
-    'placas', 
+    'api.placas', 
 ]
 
 # Middleware
