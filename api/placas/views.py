@@ -1,15 +1,9 @@
-import os
-import json
-from django.http import JsonResponse
-from django.conf import settings
+from rest_framework import viewsets
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
+from .models import Placa
+from .serializers import PlacaSerializer
 
-def lista_placas(request):
-    geojson_path = os.path.join(settings.BASE_DIR, "placas.geojson")
-
-    if not os.path.exists(geojson_path):
-        return JsonResponse({"erro": "Arquivo placas.geojson não encontrado."}, status=404)
-
-    with open(geojson_path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    return JsonResponse(data, safe=False)
+class PlacaViewSet(viewsets.ReadOnlyModelViewSet):
+    queryset = Placa.objects.all()
+    serializer_class = PlacaSerializer
+    permission_classes = [IsAuthenticatedOrReadOnly]

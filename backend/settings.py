@@ -7,9 +7,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'sua_chave_secreta_aqui'
 
 # Definindo o modo de debug
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
+APPEND_SLASH = True
 
 # Definições de aplicativos instalados
 INSTALLED_APPS = [
@@ -20,7 +21,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'corsheaders',
-    'api', 
+    'usuarios',
+    'api',
+    'placas', 
 ]
 
 # Middleware
@@ -63,16 +66,25 @@ ASGI_APPLICATION = 'backend.asgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',  # Arquivo físico no disco
     }
 }
 
-REST_FRAMEWORK = {
 
-    'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.AllowAny',
-    ),
+
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.IsAuthenticated',
+    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ],
+    'DEFAULT_RENDERER_CLASSES': [
+        'rest_framework.renderers.JSONRenderer',
+    ],
 }
+
+
 
 
 # Configurações de senhas e autenticação
@@ -90,8 +102,10 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+AUTH_USER_MODEL = 'usuarios.Usuario'
 
 CORS_ALLOW_ALL_ORIGINS = True
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 LANGUAGE_CODE = 'pt-br'
