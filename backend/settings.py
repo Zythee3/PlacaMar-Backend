@@ -20,10 +20,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.gis',
     'corsheaders',
     'usuarios',
-    'api',
-    'api.placas', 
+    'api.placas',
+    'core_admin',
+    'zonas',
+    'conteudo_educativo',
+    'marketplace',
+    'relatorios',
 ]
 
 # Middleware
@@ -65,8 +70,12 @@ ASGI_APPLICATION = 'backend.asgi.application'
 # Banco de dados (PostgreSQL)
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',  # Arquivo físico no disco
+        'ENGINE': 'django.contrib.gis.db.backends.postgis',
+        'NAME': 'placamar',
+        'USER': 'placamar',
+        'PASSWORD': 'placamar',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
@@ -102,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-AUTH_USER_MODEL = 'usuarios.Usuario'
+AUTH_USER_MODEL = 'core_admin.Admin'
 
 CORS_ALLOW_ALL_ORIGINS = True
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'

@@ -9,6 +9,7 @@ def home(request):
 urlpatterns = [
     path('', home),  # Rota raiz simples
     path('admin/', admin.site.urls),
+    path('api/admin/', include('core_admin.urls')),
     path('api/usuarios/', include('usuarios.urls')),
     path('api/placas/', include('api.placas.urls')),
 
