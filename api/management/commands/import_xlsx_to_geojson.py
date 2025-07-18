@@ -6,7 +6,18 @@ class Command(BaseCommand):
     help = 'Converte XLSX para GeoJSON'
 
     def handle(self, *args, **kwargs):
-        df = pd.read_excel('/home/guest/Documentos/Plataforma-PlacaMar/PlacaMar-Backend/api/placas/data/Zatan_v3 (1).xlsx')
+        df = pd.read_excel('/home/guest/Documentos/Plataforma-PlacaMar/PlacaMar-Backend/api/placas/data/Zatan_Tamandare.xlsx')
+        # Renomeia colunas para facilitar acesso no código
+        df.rename(columns={
+            'localidade_x': 'localidade',
+            'Zona': 'zona',
+            'Atividades Permitidas': 'atividades_permitidas',
+            'Qtd Placas': 'qtd_placas',
+            'descricao_(conteudo)': 'descricao',
+            'Nº de Embarcações/Desembarque': 'num_embarcacoes',
+            'Nº Maximo de pessoas por Embarque/Catamarã': 'max_pessoas_catamara',
+            'Nº Maximo de pessoas para Embarque/Miúdas': 'max_pessoas_miudas'
+        }, inplace=True)
 
         features = []
         for _, row in df.iterrows():
@@ -17,13 +28,15 @@ class Command(BaseCommand):
                     "coordinates": [row["longitude"], row["latitude"]],
                 },
                 "properties": {
-                    "subzona": row["subzona"],
-                    "localidade": row["localidade_x"],
-                    "embarcacoes": row["embarcacoes"],
-                    "usuarios": row["usuarios"],
+                    "localidade": row["localidade"],
+                    "zona": row["zona"],
+                    "atividades_permitidas": row["atividades_permitidas"],
+                    "qtd_placas": row["qtd_placas"],
                     "nome_placa": row["nome_placa"],
-                    "cor": row["cor"],
                     "descricao": row["descricao"],
+                    "num_embarcacoes": row["num_embarcacoes"],
+                    "max_pessoas_catamara": row["max_pessoas_catamara"],
+                    "max_pessoas_miudas": row["max_pessoas_miudas"],
                 },
             })
 
