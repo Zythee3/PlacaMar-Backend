@@ -6,8 +6,7 @@ class Command(BaseCommand):
     help = 'Converte XLSX para GeoJSON'
 
     def handle(self, *args, **kwargs):
-        df = pd.read_excel('/home/guest/Documentos/Plataforma-PlacaMar Backend/GeoJSON/Projeto-de-Geolocalizacao-ZATAN-Equipe-InovaRepe-Desafio-7/planilha_placas_v2.xlsx')
-
+        df = pd.read_excel('/home/guest/Documentos/Plataforma-PlacaMar/PlacaMar-Backend/api/placas/data/Zatan_v3 (1).xlsx')
 
         features = []
         for _, row in df.iterrows():
