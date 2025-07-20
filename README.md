@@ -176,7 +176,7 @@ Você deverá ver todas as aplicações (`Autenticação e Autorização`, `Core
 
 ## 6. Funcionalidade de Rastreamento de Localização
 
-Foi implementada uma funcionalidade para rastrear a localização do usuário em tempo real e armazenar seu histórico de movimentação, criando um "roteiro".
+Funcionalidade para rastrear a localização do usuário em tempo real e armazenar seu histórico de movimentação, criando um "roteiro".
 
 ### Componentes da Funcionalidade
 
