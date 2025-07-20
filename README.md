@@ -173,3 +173,32 @@ Para acessar o painel de administração do Django:
     Abra seu navegador e vá para `http://127.0.0.1:8000/admin/` (ou a porta que você estiver usando). Use as credenciais do superusuário que você criou para fazer login.
 
 Você deverá ver todas as aplicações (`Autenticação e Autorização`, `Core Admin`, `Usuários`, `Zonas`, `Conteúdo Educativo`, `Marketplace`, `Relatórios`) listadas no painel de administração, com seus respectivos modelos disponíveis para gerenciamento.
+
+## 6. Funcionalidade de Rastreamento de Localização
+
+Foi implementada uma funcionalidade para rastrear a localização do usuário em tempo real e armazenar seu histórico de movimentação, criando um "roteiro".
+
+### Componentes da Funcionalidade
+
+1.  **Modelo `HistoricoLocalizacao`** (`core_admin/models.py`):
+    *   Armazena cada ponto de localização de um usuário.
+    *   Campos: `usuario` (ForeignKey para `Admin`), `ponto` (PointField do GeoDjango), `timestamp`.
+
+2.  **Serializador `HistoricoLocalizacaoSerializer`** (`core_admin/serializers.py`):
+    *   Converte os dados de localização para o formato GeoJSON para a API.
+
+3.  **Endpoints da API** (`core_admin/urls.py`):
+    *   `POST /api/admin/registrar-localizacao/`:
+        *   **Ação**: Registra a localização atual do usuário.
+        *   **Autenticação**: Requerida (o usuário precisa estar logado).
+        *   **Corpo da Requisição**: `{"lat": <latitude>, "lon": <longitude>}`.
+    *   `GET /api/admin/meu-roteiro/`:
+        *   **Ação**: Retorna a lista de todos os pontos de localização (o roteiro) do usuário logado.
+        *   **Autenticação**: Requerida.
+
+### Fluxo de Uso (Frontend)
+
+1.  O frontend deve solicitar permissão ao usuário para acessar a geolocalização do navegador.
+2.  Periodicamente (ex: a cada 30 segundos), o frontend obtém as coordenadas (latitude e longitude).
+3.  As coordenadas são enviadas via `POST` para o endpoint `/api/admin/registrar-localizacao/`.
+4.  Para exibir o mapa com o roteiro, o frontend faz uma requisição `GET` para `/api/admin/meu-roteiro/` e desenha os pontos recebidos em um mapa.
