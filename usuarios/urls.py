@@ -3,7 +3,7 @@ from rest_framework.routers import DefaultRouter
 from .views import UsuarioCreateView, UsuarioViewSet
 
 router = DefaultRouter()
-router.register(r'usuarios', UsuarioViewSet, basename='usuario')
+router.register(r'', UsuarioViewSet, basename='usuario')
 
 urlpatterns = [
     path('cadastro/', UsuarioCreateView.as_view(), name='usuario-cadastro'),

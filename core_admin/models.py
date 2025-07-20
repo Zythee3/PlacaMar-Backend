@@ -24,3 +24,13 @@ class Admin(AbstractUser):
 
     def __str__(self):
         return self.username
+
+from django.contrib.gis.db import models as gis_models
+
+class HistoricoLocalizacao(models.Model):
+    usuario = models.ForeignKey(Admin, on_delete=models.CASCADE, related_name='historico_localizacao')
+    ponto = gis_models.PointField()
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-timestamp']
