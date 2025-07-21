@@ -27,7 +27,7 @@ services:
       - DB_NAME=${DB_NAME}
       - DB_USER=${DB_USER}
       - DB_PASSWORD=${DB_PASSWORD}
-      - DB_HOST=db  # O nome do serviço do banco de dados
+      - DB_HOST=db  
       - DB_PORT=${DB_PORT}
 
 volumes:
