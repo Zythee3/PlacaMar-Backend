@@ -1,0 +1,948 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0969013012922,
+          -8.75937768963143
+        ]
+      },
+      "properties": {
+        "nº": 1,
+        "coordenadas utm": "269347.00 E, 9031171.00 S",
+        "localidade_x": "Forte de Tamandaré - Banhista",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque, Mergulho",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.15. Forte de Tamandaré - Banhista",
+        "descricao_(conteudo)": "Banhistas compartilhada com pesca artesanal; Turismo Náutico de Catamarã e Embarcações miúdas; Turístico de Base Comunitária (TBC); Mergulho Livre; Estacionamento de Embarcação",
+        "nº de embarcações/desembarque": 5,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0927443656448,
+          -8.75589663870391
+        ]
+      },
+      "properties": {
+        "nº": 2,
+        "coordenadas utm": "269726.00 E, 9031531.00 S",
+        "localidade_x": "Pontal Maceió - Marina 3",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Estacionamento, Embarque/Desembarque, Mergulho",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.13. Marina 3",
+        "descricao_(conteudo)": "Turístico de Base Comunitária (TBC) Pesca e Jangadas turísticas; APONTAMENTO/ABICAGEM; Mergulho Livre",
+        "nº de embarcações/desembarque": 6,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0908816205397,
+          -8.75235368547245
+        ]
+      },
+      "properties": {
+        "nº": 3,
+        "coordenadas utm": "269912.37 E, 9031876.67 S",
+        "localidade_x": "Quiosques Tamandaré / Turismo de Base Comunitária (TBC)",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 1.1.11 Quiosques Tamandaré 2 - Banhista/ A.S. 1.1.12. Turismo de Base Comunitária (TBC)",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Turismo Náutico E/D",
+        "nº de embarcações/desembarque": 5,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0890540536143,
+          -8.75045437653153
+        ]
+      },
+      "properties": {
+        "nº": 4,
+        "coordenadas utm": "270141.87 E, 9032140.38 S",
+        "localidade_x": "Jangadeiros/ Praia sem Barreiras",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque, Mergulho",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.8. Jangadeiros - Embarque/Desembarque",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Mergulho TBC",
+        "nº de embarcações/desembarque": 3,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0872705562988,
+          -8.74841033155694
+        ]
+      },
+      "properties": {
+        "nº": 5,
+        "coordenadas utm": "270367.00 E, 9032324.00 S",
+        "localidade_x": "Tamandaré Pesca 1",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Estacionamento - Pesca Artesanal",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 3.6.1. Tamandaré Pesca 1 - Estacionamento",
+        "descricao_(conteudo)": "Piscinas do VAU/ Estacionamento e Apoio à Pesca Artesanal",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0863913186112,
+          -8.7447022515614
+        ]
+      },
+      "properties": {
+        "nº": 6,
+        "coordenadas utm": "270421.00 E, 9032723.00 S",
+        "localidade_x": "Marina 2 - Igrejinha",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Embarque/Desembarque, Mergulho",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.7. Marina 2 Igrejinha - Apontamento /Abicagem",
+        "descricao_(conteudo)": "Turismo Náutico E/D; Pesca Artesanal; Mergulho TBC",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0866730982419,
+          -8.74212217536409
+        ]
+      },
+      "properties": {
+        "nº": 7,
+        "coordenadas utm": "270384.06 E, 9033007.26 S",
+        "localidade_x": "Marina 1 - Igrejinha",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.6. Marina 1 Igrejinha - Apontamento/Abicagem",
+        "descricao_(conteudo)": "Turismo Náutico E/D; Pesca Artesanal",
+        "nº de embarcações/desembarque": 3,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.087110948988,
+          -8.73867421193316
+        ]
+      },
+      "properties": {
+        "nº": 8,
+        "coordenadas utm": "270364.00 E, 9033403.00 S",
+        "localidade_x": "Amendoeira",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S.1.1.5. Amendoeira -  Embarque/Desembarque",
+        "descricao_(conteudo)": "Turismo Náutico E/D; Pesca Artesanal",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0886053157677,
+          -8.73455619922015
+        ]
+      },
+      "properties": {
+        "nº": 9,
+        "coordenadas utm": "270178.04 E, 9033817.65 S",
+        "localidade_x": "Banana Boat - Quiosque do Fusca",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Embarque/Desembarque, Esportes Náuticos",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.2.5 Banana Boat – Quiosque do Fusca ",
+        "descricao_(conteudo)": "Turismo Náutico E/D; Pesca Artesanal; Esportes Náuticos de lazer rebocada ( Bananaboat e Discoboat)\n",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0893905291898,
+          -8.7273680505345
+        ]
+      },
+      "properties": {
+        "nº": 10,
+        "coordenadas utm": "270084.43 E, 9034685.52 S",
+        "localidade_x": "Campas / Hotel Sul",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Mergulho",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.4 Campas/ hotel Sul - Banhistas",
+        "descricao_(conteudo)": "Banhistas compartilhada com pesca artesanal; Mergulho TBC",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0878369100764,
+          -8.72315952759523
+        ]
+      },
+      "properties": {
+        "nº": 11,
+        "coordenadas utm": "270196.91 E, 9035064.79 S",
+        "localidade_x": "Campas Norte / Divisa Carneiros",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque, Mergulho",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 1.1.3 Campas/hotel - Norte  (DIVISA CARNEIROS) ",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal;Turismo Náutico E/D; Mergulho TBC",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.189359,
+          -8.408161
+        ]
+      },
+      "properties": {
+        "nº": 12,
+        "coordenadas utm": "270582.00 E, 9035925.00 S",
+        "localidade_x": "APA Guadalupe",
+        "zona": "Área de Proteção Ambiental",
+        "atividades permitidas": "Proteção ambiental e biodiversidade",
+        "qtd placas": 1,
+        "nome_placa": "APAG GUADALUPE - ZATAN",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.187048,
+          -8.405502
+        ]
+      },
+      "properties": {
+        "nº": 13,
+        "coordenadas utm": "270786.31 E, 9036217.66 S",
+        "localidade_x": "APA Guadalupe",
+        "zona": "Área de Proteção Ambiental",
+        "atividades permitidas": "Proteção ambiental e biodiversidade",
+        "qtd placas": 1,
+        "nome_placa": "APAG GUADALUPE - ZATAN",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.183938,
+          -8.402844
+        ]
+      },
+      "properties": {
+        "nº": 14,
+        "coordenadas utm": "271107.22 E, 9036510.79 S",
+        "localidade_x": "APA Guadalupe",
+        "zona": "Área de Proteção Ambiental",
+        "atividades permitidas": "Proteção ambiental e biodiversidade",
+        "qtd placas": 1,
+        "nome_placa": "APAG GUADALUPE - ZATAN",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0790494188062,
+          -8.701979113992
+        ]
+      },
+      "properties": {
+        "nº": 15,
+        "coordenadas utm": "271214.00 E, 9037267.00 S",
+        "localidade_x": "Pontal de Carneiros ",
+        "zona": "Zona Estuarina,  Santuário do Mero e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Brinquedos Náuticos, Embarque/Desembarque",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 2.4.12. / A.S. 2.4.11. / A.S. 2.4.10. Pontal de Carneiros",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Brinquedos Náuticos não motorizados  (Caiaque e Stand up paddle); Turismo Náutico E/D",
+        "nº de embarcações/desembarque": 7,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0846232181763,
+          -8.6975470135438
+        ]
+      },
+      "properties": {
+        "nº": 16,
+        "coordenadas utm": "270684.17 E, 9037670.72 S",
+        "localidade_x": "Restaurante 1",
+        "zona": "Zona Estuarina, Santuário do Mero e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Brinquedos Náuticos, Embarque/Desembarque",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 2.4.9. / A.S. 2.4.8 / A.S. 2.4.7. Restaurante 1",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Turismo Náutico E/D",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0910847885242,
+          -8.69342833015032
+        ]
+      },
+      "properties": {
+        "nº": 17,
+        "coordenadas utm": "270308.34 E, 9037932.64 S",
+        "localidade_x": "Igrejinha Carneiros",
+        "zona": "Zona Estuarina, Santuário do Mero e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 2.4.4. - A.S. 2.4.5. - A.S. 2.4.6. Igrejinha - Banhistas 1-2; Embarque/Desembarque",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal;Turismo Náutico E/D; Mergulho TBC",
+        "nº de embarcações/desembarque": 7,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0962821886838,
+          -8.68956087853148
+        ]
+      },
+      "properties": {
+        "nº": 18,
+        "coordenadas utm": "269379.07 E, 9038769.81 S",
+        "localidade_x": "Prainha Carneiros",
+        "zona": "Zona Estuarina, Santuário do Mero e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Brinquedos Náuticos, Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.4.3. -  A.S. 2.4.2. - A.S. 2.4.1. Embarcação turismo; Banhista; Brinquedos Náuticos",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Brinquedos Náuticos não motorizados (Caiaque e Stand up paddle);Turismo Náutico E/D",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.206794,
+          -8.380691
+        ]
+      },
+      "properties": {
+        "nº": 19,
+        "coordenadas utm": "268741.91 E, 9038887.55 S",
+        "localidade_x": "APA Guadalupe",
+        "zona": "Área de Proteção Ambiental",
+        "atividades permitidas": "Proteção ambiental e biodiversidade",
+        "qtd placas": 1,
+        "nome_placa": "APAG GUADALUPE - ZATAN",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1045695085796,
+          -8.69621913846214
+        ]
+      },
+      "properties": {
+        "nº": 20,
+        "coordenadas utm": "268451.00 E, 9038107.00 S",
+        "localidade_x": "Mangueira",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": "Pesca Artesanal, Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.1.1 Mangueira - E/D Turismo de Base Comunitária e Pesca Artesanal",
+        "descricao_(conteudo)": "Pesca Artesanal;Turismo Náutico E/D; Mergulho TBC",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1048099466107,
+          -8.6991053707923
+        ]
+      },
+      "properties": {
+        "nº": 21,
+        "coordenadas utm": "268380.36 E, 9037769.80 S",
+        "localidade_x": "Amaragi",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": "Embarque/Desembarque, Fundeio",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.1.2 Amaragi - E/D Turismo de Base Comunitária e Pesca Artesanal",
+        "descricao_(conteudo)": "Pesca Artesanal;Turismo Náutico E/D; Mergulho TBC",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1122993191466,
+          -8.68394588681212
+        ]
+      },
+      "properties": {
+        "nº": 22,
+        "coordenadas utm": "267619.00 E, 9039189.00 S",
+        "localidade_x": "Nova Holanda",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": " Zona de Preservaçao da Vida Estuarina (ZPVE) Preservação total",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.2.2 Nova Holanda - ZPVE do Santuario do Mero",
+        "descricao_(conteudo)": "Proíbido atividade Náutica (Turismo, Lazer, Transporte, Pesca) exceto ações de pesquisa",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1020166388947,
+          -8.68446765733611
+        ]
+      },
+      "properties": {
+        "nº": 23,
+        "coordenadas utm": "268634.44 E, 9039555.64 S",
+        "localidade_x": "Píer Mariassú",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": "Pesca Artesanal, Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.4.21 Píer Mariassú",
+        "descricao_(conteudo)": "Turismo Náutico E/D; Pesca Artesanal",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0954596032118,
+          -8.6849599215092
+        ]
+      },
+      "properties": {
+        "nº": 24,
+        "coordenadas utm": "269448.04 E, 9039346.18 S",
+        "localidade_x": "Píer Guadalupe",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": "Pesca Artesanal, Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.4.20 Pier Guadalupe - Embarque/ Desembarque",
+        "descricao_(conteudo)": "Área pública destinada ao Embarque e Desembarque de passageiros, compartilhada a Pesca Artesanal",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0927282697102,
+          -8.68589444632663
+        ]
+      },
+      "properties": {
+        "nº": 25,
+        "coordenadas utm": "269861.00 E, 9039251.00 S",
+        "localidade_x": "Área Seletiva Guadalupe",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque, Estacionamento",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 2.4.13. - A.S. 2.4.14 -  A.S. 2.4.15 - A.S. 2.4.16 - A.S. 2.4.17 - A.S. 2.4.18. Argila",
+        "descricao_(conteudo)": "Turismo Náutico E/D;  Pesca Artesanal TBC",
+        "nº de embarcações/desembarque": 6,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.192853,
+          -8.378933
+        ]
+      },
+      "properties": {
+        "nº": 26,
+        "coordenadas utm": "270228.80 E, 9039081.21 S",
+        "localidade_x": "APA Guadalupe",
+        "zona": "Área de Proteção Ambiental",
+        "atividades permitidas": "Proteção ambiental e biodiversidade",
+        "qtd placas": 1,
+        "nome_placa": "APAG GUADALUPE - ZATAN",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0793102577763,
+          -8.68853064280536
+        ]
+      },
+      "properties": {
+        "nº": 27,
+        "coordenadas utm": "270507.48 E, 9038961.68 S",
+        "localidade_x": "Tejucussú",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Proibição de retirada/mobilização de sedimento",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.2.4 TEJUCUSSÚ - Proteção do Banco de Areia",
+        "descricao_(conteudo)": "Proibida a retirada e mobilização de sendimento, abertura de cana, comercialização de alimentos  e bebidas e festa náutica",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0819303167079,
+          -8.67697599429697
+        ]
+      },
+      "properties": {
+        "nº": 28,
+        "coordenadas utm": "270693.00 E, 9039733.00 S",
+        "localidade_x": "Proteção Terraços Marinhos",
+        "zona": "Zona Marítima",
+        "atividades permitidas": "Proibição de construções e barracas",
+        "qtd placas": 3,
+        "nome_placa": "A.S. 3.2.1 Guadalupe - Proteção dos Terraços Marinhos e Falésias",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais destinada à proteção dos terraços marinhos e falésias - proibida construções visando atividade náutica e barracas com fins gastronômicos",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0711021503801,
+          -8.67081364863798
+        ]
+      },
+      "properties": {
+        "nº": 29,
+        "coordenadas utm": "272058.32 E, 9040903.06 S",
+        "localidade_x": "Gamela / Aver o Mar",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.2.2  - A.S. 1.2.1. Gamela/A Ver o Mar -  E/D e Banhista",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Turismo Náutico E/D",
+        "nº de embarcações/desembarque": 3,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0706728188769,
+          -8.66933598658932
+        ]
+      },
+      "properties": {
+        "nº": 30,
+        "coordenadas utm": "272099.69 E, 9041103.57 S",
+        "localidade_x": "Área Seletiva - Estacionamento Barcos",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.2.3 - A.S. 3.1.1 Gamela A Ver o Mar – E/D embarcação de turismo; barcos de pesca",
+        "descricao_(conteudo)": " E/D embarcações de turismo náutico; Estacionamento barcos de pesca; Catamarã de 30 m - 50 m",
+        "nº de embarcações/desembarque": 4,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.102544,
+          -8.280183
+        ]
+      },
+      "properties": {
+        "nº": 31,
+        "coordenadas utm": "277223.60 E, 9047601.21 S",
+        "localidade_x": "Ilha de Santo Aleixo - Praia",
+        "zona": "Zona Marítima Subzona Plataforma Continental",
+        "atividades permitidas": "Banhistas",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 4.1 ILHA DE SANTO ALEIXO -Praia",
+        "descricao_(conteudo)": "Banhistas compartilhada com pesca artesanal; Permitido 364 Usuários em simultâneo",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10134,
+          -8.281597
+        ]
+      },
+      "properties": {
+        "nº": 32,
+        "coordenadas utm": "277339.67 E, 9047440.30 S",
+        "localidade_x": "Ilha de Santo Aleixo - Piscina",
+        "zona": "Zona Marítima Subzona Plataforma Continental",
+        "atividades permitidas": "Banhistas",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 4.2 ILHA DE SANTO ALEIXO- Piscina",
+        "descricao_(conteudo)": "Conservação da Biodiversidade Marinha; Proteção aos Ambientes Recifais  (309 usuários por dia)",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.102594,
+          -8.280641
+        ]
+      },
+      "properties": {
+        "nº": 33,
+        "coordenadas utm": "277218.24 E, 9047549.53 S",
+        "localidade_x": "Ilha de Santo Aleixo - Fundeio",
+        "zona": "Zona Marítima Subzona Plataforma Continental",
+        "atividades permitidas": "Fundeio de até 17 embarcações",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 4.3 Ilha de Santo Aleixo - Fundeio de embarcações",
+        "descricao_(conteudo)": "Conservação da Biodiversidade Marinha; Proteção aos Ambientes Recifais",
+        "nº de embarcações/desembarque": 17,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.102317,
+          -8.281417
+        ]
+      },
+      "properties": {
+        "nº": 34,
+        "coordenadas utm": "277245.51 E, 9047463.47 S",
+        "localidade_x": "Ilha de Santo Aleixo - E/D PLANO DE MANEJO (ESTUDO DE CARGA/SUPORTE E OPERACIONAL DE ATIVIDADES TURISMO NÁUTICO SUSTENTÁVEL",
+        "zona": "Zona Marítima Subzona Plataforma Continental",
+        "atividades permitidas": "Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 4.4 Ilha de Santo Aleixo - Embarque/Desembarque",
+        "descricao_(conteudo)": "Conservação da Biodiversidade Marinha; Proteção aos Ambientes Recifais ; E/D embarcações de turismo náutico; pesca artesanal",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0899606150802,
+          -8.75119813472528
+        ]
+      },
+      "properties": {
+        "nº": "1A",
+        "coordenadas utm": "270051.29 E, 9032053.81 S",
+        "localidade_x": "Projeto Praia sem Barreiras",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Acesso ao lazer de pessoas com deficiência e/ou mobilidade reduzida ",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.10 Projeto Praia sem Barreiras",
+        "descricao_(conteudo)": "TAMANDARÉ -  Área de acesso ao lazer de pessoas com deficiência e/ou mobilidade reduzida",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1146873259024,
+          -8.68023117458557
+        ]
+      },
+      "properties": {
+        "nº": "2A",
+        "coordenadas utm": "267315.03 E, 9039852.86 S",
+        "localidade_x": "2A. Praia de Pedra",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "atividades permitidas": " Apoio a pesca artesanal",
+        "qtd placas": 1,
+        "nome_placa": "Placa 2A - Praia de Pedra",
+        "descricao_(conteudo)": "PESCA ARTESANAL",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0941970204122,
+          -8.75756804422405
+        ]
+      },
+      "properties": {
+        "nº": "1B",
+        "coordenadas utm": "269618.20 E, 9031309.36 S",
+        "localidade_x": "1B. Piscina do Forte",
+        "zona": "Zona Marítima",
+        "atividades permitidas": " Atividade de mergulho livre - Banhista - Atividade de Mergulho - Mergulho Livre e Apneia",
+        "qtd placas": 2,
+        "nome_placa": "Placa 1B: A.S. 1.1.24 - A.S. 1.1.23 - A.S. 1.1.22 - A.S. 1.1.21. Piscina do Forte 2/ Piscina do Forte 1/ Três Cabeços/ Piscina Pirambu do Sul",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal;Turismo Náutico E/D; Mergulho APNEIA ; ",
+        "nº de embarcações/desembarque": 12,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0850587910121,
+          -8.75115091825737
+        ]
+      },
+      "properties": {
+        "nº": "2B",
+        "coordenadas utm": "270289.85 E, 9032235.85 S",
+        "localidade_x": "Piscina da Vau 1 e 2",
+        "zona": "Zona Marítima",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque Fundeio na borda/ compartilhada com Pesca Artesanal",
+        "qtd placas": 1,
+        "nome_placa": "Placa 2B: A.S. 1.1.20 - A.S. 1.1.19. Piscina da VaU 1 / Piscina – da VaU 2/ Prainha, banhistas",
+        "descricao_(conteudo)": "PISCINAS NATURAIS - fundeio das embarcações deverá ser realizado na borda; permitido 93 usuários em simultâneo",
+        "nº de embarcações/desembarque": 11,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0837215725976,
+          -8.74702435010916
+        ]
+      },
+      "properties": {
+        "nº": "3B",
+        "coordenadas utm": "270443.15 E, 9032633.54 S",
+        "localidade_x": "Piscina da VaU 3 e  4",
+        "zona": "Zona Marítima e Piscina Naturais",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque Fundeio na borda/ compartilhada com Pesca Artesanal",
+        "qtd placas": 1,
+        "nome_placa": "Placa 3B: A.S. 1.1.18 - A.S. 1.1.17. Piscina – da VaU 3/ Matafome- Atividade de mergulho livre/ Piscina – da Val 4 - Banhista",
+        "descricao_(conteudo)": "PISCINAS NATURAIS - fundeio das embarcações deverá ser realizado na borda; permitido 110 usuários em simultâneos",
+        "nº de embarcações/desembarque": 14,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0871448221489,
+          -8.74266482870771
+        ]
+      },
+      "properties": {
+        "nº": "4B",
+        "coordenadas utm": "270385.69 E, 9032962.58 S",
+        "localidade_x": "Pirambu do Norte - Topless",
+        "zona": "Zona Marítima e Ambiente Praial e Piscina Naturais",
+        "atividades permitidas": "Visitação Turística, Embarque/Desembarque Fundeio na borda/ compartilhada com Pesca Artesanal",
+        "qtd placas": 1,
+        "nome_placa": "Placa 4B, A.S. 1.1.16 Área Seletiva Visitação Turística Topless/ Pirambu do Norte",
+        "descricao_(conteudo)": "PISCINAS NATURAIS - Visitação turística compartilhada com pesca artesanal; fundeio das embarcações deverá ser realizado na borda; permitido 25 usuários simultâneos",
+        "nº de embarcações/desembarque": 4,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0713993949031,
+          -8.67010941545329
+        ]
+      },
+      "properties": {
+        "nº": "5B",
+        "coordenadas utm": "272074.86 E, 9040998.69 S  ",
+        "localidade_x": "Piscina Aver o Mar",
+        "zona": "Zona Marítima e Piscina Naturais",
+        "atividades permitidas": "Banhistas, Mergulho livre, compartilhada com Pesca Artesanal, Embarque/Desembarque Fundeio na Borda",
+        "qtd placas": 1,
+        "nome_placa": "Placa 5B, A.S. 1.1.1 Piscina  A Ver o Mar – Banhista",
+        "descricao_(conteudo)": "PISCINAS NATURAIS -  Banhistas, Mergulho Livre compartilhada com Pesca Artesanal; fundeio das embarcações deverá ser realizado na borda",
+        "nº de embarcações/desembarque": 4,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 33
+      }
+    }
+  ]
+}

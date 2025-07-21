@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'conteudo_educativo',
     'marketplace',
     'relatorios',
+    'api',
 ]
 
 # Middleware
