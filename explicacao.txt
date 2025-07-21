@@ -1,0 +1,144 @@
+# Guia de Instalação e Configuração do PlacaMar-Backend com Docker
+
+Este guia detalha os passos para configurar e executar o ambiente de desenvolvimento do backend do projeto PlacaMar usando Docker e Docker Compose. Este método simplifica a configuração e garante que o ambiente funcione de forma consistente em qualquer máquina.
+
+## Pré-requisitos
+
+Para começar, certifique-se de que as seguintes ferramentas estejam instaladas em sua máquina:
+
+- **Git:** Para clonar o repositório.
+- **Docker e Docker Compose:** Para construir e orquestrar os containers da aplicação. Você pode seguir as instruções oficiais de instalação do Docker para o seu sistema operacional.
+
+## Passo a Passo
+
+### 1. Configurar as Variáveis de Ambiente
+
+O projeto utiliza um arquivo `.env` para gerenciar as variáveis de ambiente (como chaves secretas e credenciais do banco de dados). Nós fornecemos um arquivo de exemplo (`.env.example`).
+
+**a) Copie o arquivo de exemplo:**
+
+```bash
+cp .env.example .env
+```
+
+**b) Revise o arquivo `.env`:**
+
+Abra o arquivo `.env` que você acabou de criar com seu editor de texto preferido. Os valores padrão devem funcionar para o desenvolvimento local. É altamente recomendável que você altere a `SECRET_KEY` para um valor único e seguro.
+
+```ini
+# Variáveis de ambiente para o Docker Compose
+
+# Configurações do Django
+SECRET_KEY=sua-chave-secreta-super-segura-aqui
+DEBUG=1
+
+# Configurações do Banco de Dados
+DB_NAME=placamar
+DB_USER=placamar
+DB_PASSWORD=placamar
+DB_HOST=db
+DB_PORT=5432
+```
+
+### 2. Iniciar o Serviço Docker (Solução de Problemas Comuns)
+
+Se você encontrar erros como `Cannot connect to the Docker daemon` ou `permission denied`, o serviço Docker pode não estar rodando ou seu usuário não tem as permissões corretas.
+
+**a) Iniciar o serviço Docker:**
+
+```bash
+sudo systemctl start docker
+```
+
+**b) Habilitar o serviço Docker para iniciar automaticamente (recomendado):**
+
+```bash
+sudo systemctl enable docker
+```
+
+**c) Adicionar seu usuário ao grupo `docker` (se necessário, para evitar `sudo`):**
+
+Se você ainda tiver problemas de permissão (`permission denied`), pode ser necessário adicionar seu usuário ao grupo `docker`. **Após executar este comando, você DEVE fazer logout e login novamente na sua sessão do sistema para que a alteração tenha efeito.**
+
+```bash
+sudo usermod -aG docker ${USER}
+```
+
+### 3. Parar PostgreSQL Local (Solução de Problemas Comuns)
+
+Se você já tinha uma instalação local do PostgreSQL rodando na porta 5432, o Docker Compose pode falhar com o erro `address already in use`. O container do Docker já inclui seu próprio PostgreSQL, então o local não é mais necessário para este projeto.
+
+**a) Parar o serviço PostgreSQL local:**
+
+```bash
+sudo systemctl stop postgresql
+```
+
+**b) Desabilitar o serviço PostgreSQL local para não iniciar automaticamente (recomendado):**
+
+```bash
+sudo systemctl disable postgresql
+```
+
+### 4. Construir e Iniciar os Containers
+
+Com o Docker e o Docker Compose instalados e configurados, execute o seguinte comando na raiz do diretório `PlacaMar-Backend/`. Ele irá construir a imagem da aplicação (se for a primeira vez ou se houver alterações no `Dockerfile`) e iniciar os containers do banco de dados e da aplicação web.
+
+```bash
+sudo docker-compose up --build
+```
+
+Este processo pode levar alguns minutos na primeira execução, pois o Docker precisa baixar as imagens e construir a aplicação. Deixe este terminal aberto, pois ele mostrará os logs dos containers.
+
+### 6. Aplicar as Migrações do Banco de Dados
+
+Enquanto os containers estão rodando (no terminal do passo 5), você precisa aplicar as migrações do Django para criar as tabelas no banco de dados. Este comando é executado *dentro* do container `web`.
+
+Abra um **novo terminal** e navegue até a pasta `PlacaMar-Backend/`.
+
+```bash
+cd /home/rimaud/PlacaMAr/PlacaMar-Backend/
+```
+
+Então, execute o comando de migração:
+
+```bash
+sudo docker-compose exec web python manage.py migrate
+```
+
+Você verá uma série de mensagens `Applying ... OK`, indicando que as tabelas estão sendo criadas.
+
+### 7. Criar um Superusuário (Opcional, mas Recomendado)
+
+Para acessar o painel de administração do Django (`http://localhost:8000/admin/`), você precisará de um superusuário. No mesmo terminal onde você executou as migrações, execute:
+
+```bash
+sudo docker-compose exec web python manage.py createsuperuser
+```
+
+Siga as instruções para definir um nome de usuário, e-mail e senha.
+
+## Acessando a Aplicação
+
+Após seguir todos os passos, o backend do PlacaMar estará totalmente funcional e acessível:
+
+- **API do Backend:** `http://localhost:8000/`
+- **Painel de Administração do Django:** `http://localhost:8000/admin/`
+
+## Comandos Úteis do Docker Compose
+
+- **Parar os containers:** Pressione `Ctrl + C` no terminal onde o `docker-compose up` está rodando. Ou, em outro terminal, execute:
+  ```bash
+  sudo docker-compose down
+  ```
+- **Ver os logs em tempo real:**
+  ```bash
+  sudo docker-compose logs -f web
+  ```
+- **Executar um comando dentro do container `web`:**
+  ```bash
+  sudo docker-compose exec web <comando>
+  # Exemplo: sudo docker-compose exec web bash (para abrir um shell dentro do container)
+  ```
+
+Com este guia, sua equipe terá todas as informações necessárias para configurar e rodar o backend do PlacaMar de forma eficiente e sem problemas.

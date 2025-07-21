@@ -1,13 +1,14 @@
 from pathlib import Path
+from decouple import config
 
 # Caminho base do projeto
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Chave secreta para segurança
-SECRET_KEY = 'sua_chave_secreta_aqui'
+SECRET_KEY = config('SECRET_KEY')
 
 # Definindo o modo de debug
-DEBUG = True
+DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = ['*']
 APPEND_SLASH = True
@@ -71,11 +72,11 @@ ASGI_APPLICATION = 'backend.asgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
-        'NAME': 'placamar',
-        'USER': 'placamar',
-        'PASSWORD': 'placamar',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST'),
+        'PORT': config('DB_PORT', cast=int),
     }
 }
 
