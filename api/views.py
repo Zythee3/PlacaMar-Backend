@@ -4,7 +4,7 @@ from pathlib import Path
 from django.conf import settings
 
 def geojson_placas_view(request):
-    geojson_path = Path(settings.BASE_DIR) / 'dados' / 'placas.geojson'
+    geojson_path = Path(settings.BASE_DIR) / 'placasjson' / 'placas.geojson'
     try:
         with open(geojson_path, encoding='utf-8') as f:
             data = json.load(f)

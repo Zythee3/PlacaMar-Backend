@@ -4,7 +4,7 @@ from django.conf import settings
 from django.http import JsonResponse, HttpResponseNotFound
 
 def lista_placas(request):
-    geojson_path = os.path.join(settings.BASE_DIR, 'placas.geojson')
+    geojson_path = os.path.join(settings.BASE_DIR, 'placasjson', 'placas.geojson')
     
     if not os.path.isfile(geojson_path):
         return HttpResponseNotFound("Arquivo placas.geojson não encontrado.")

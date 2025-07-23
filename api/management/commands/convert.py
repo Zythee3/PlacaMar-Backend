@@ -17,7 +17,7 @@ class Command(BaseCommand):
         parser.add_argument(
             '--saida',
             type=str,
-            default='/home/guest/Documentos/Plataforma-PlacaMar/PlacaMar-Backend/placas.geojson',
+            default='/home/guest/Documentos/Plataforma-PlacaMar/PlacaMar-Backend/placasjson/placas.geojson',
             help='Caminho de saída do arquivo GeoJSON',
         )
 
