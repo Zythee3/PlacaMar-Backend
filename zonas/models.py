@@ -5,7 +5,7 @@ class Zona(models.Model):
     descricao = models.TextField(blank=True, null=True)
     regras = models.TextField(blank=True, null=True)
     restrita = models.BooleanField(default=False)
-    geometria = models.PolygonField(srid=4326)
+    geometria = models.PolygonField(srid=4326, null=True, blank=True)
 
     def __str__(self):
         return self.nome
