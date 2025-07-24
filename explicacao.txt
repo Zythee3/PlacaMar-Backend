@@ -80,7 +80,7 @@ sudo systemctl stop postgresql
 sudo systemctl disable postgresql
 ```
 
-## 4. Construir e Iniciar os Containers
+### 4. Construir e Iniciar os Containers
 
 Com o Docker e o Docker Compose instalados e configurados, execute o seguinte comando na raiz do diretório `PlacaMar-Backend/`. Ele irá construir a imagem da aplicação (se for a primeira vez ou se houver alterações no `Dockerfile`) e iniciar os containers do banco de dados e da aplicação web.
 
