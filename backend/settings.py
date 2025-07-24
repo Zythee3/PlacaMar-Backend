@@ -1,3 +1,5 @@
+import os
+import dj_database_url
 from pathlib import Path
 from decouple import config
 
@@ -11,6 +13,8 @@ SECRET_KEY = config('SECRET_KEY')
 DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = ['*']
+if not DEBUG:
+    ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
 APPEND_SLASH = True
 
 # Definições de aplicativos instalados
@@ -33,12 +37,14 @@ INSTALLED_APPS = [
     'api',
     'rest_framework',
     'rest_framework_gis',
+    'gunicorn',
 ]
 
 # Middleware
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -54,7 +60,6 @@ ROOT_URLCONF = 'backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'api'/'templates'],  # Localização dos templates
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -73,7 +78,7 @@ ASGI_APPLICATION = 'backend.asgi.application'
 
 # Banco de dados (PostgreSQL)
 DATABASES = {
-    'default': {
+    'default': dj_database_url.config(conn_max_age=600) if os.environ.get('DATABASE_URL') else {
         'ENGINE': 'django.contrib.gis.db.backends.postgis',
         'NAME': config('DB_NAME'),
         'USER': config('DB_USER'),
@@ -126,6 +131,7 @@ TIME_ZONE = 'America/Recife'
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [BASE_DIR / 'static']
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'

@@ -6,3 +6,6 @@ python-decouple==3.8
 psycopg2-binary
 djangorestframework-gis==1.0
 pandas
+gunicorn
+whitenoise
+dj-database-url

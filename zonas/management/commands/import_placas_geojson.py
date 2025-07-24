@@ -2,7 +2,7 @@ import os
 import json
 from django.core.management.base import BaseCommand
 from django.contrib.gis.geos import Point
-from zonas.models import Zona, Placa
+from zonas.models import Zona, Placa, Atividade, PlacaAtividade
 
 class Command(BaseCommand):
     help = 'Importa dados de placas de um arquivo GeoJSON para o banco de dados.'
@@ -17,7 +17,7 @@ class Command(BaseCommand):
         with open(geojson_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
 
-        self.stdout.write(self.style.SUCCESS('Iniciando importação de placas...'))
+        self.stdout.write(self.style.SUCCESS('Iniciando importação de placas e atividades...'))
 
         for feature in data['features']:
             properties = feature['properties']
@@ -38,24 +38,14 @@ class Command(BaseCommand):
             longitude, latitude = geometry['coordinates']
             location = Point(longitude, latitude, srid=4326) # SRID 4326 para WGS84
 
-            # Mapear campos do GeoJSON para o modelo Placa
-            # Note: O modelo Placa em zonas/models.py tem campos diferentes do modelo antigo.
-            # Estou mapeando para os campos do modelo Placa em zonas/models.py
-            # Se houver campos no GeoJSON que não se encaixam, eles serão ignorados ou precisarão de tratamento.
-
-            # O campo 'codigo_qr' no modelo Placa (zonas/models.py) é unique=True.
-            # Vou usar 'nome_placa' do GeoJSON como 'codigo_qr' para evitar duplicatas e ter um identificador.
-            # Se 'nome_placa' não for único no GeoJSON, isso causará um erro.
             codigo_qr = properties.get('nome_placa', f'Placa-{properties.get("nº", "N/A")}')
 
-            # Criar ou atualizar a Placa
             placa_data = {
                 'zona': zona,
                 'descricao': properties.get('descricao_(conteudo)'),
-                'atividades_autorizadas': properties.get('atividades permitidas'), # JSONField, pode precisar de parse mais complexo
+                'atividades_autorizadas': properties.get('atividades permitidas'), # JSONField
                 'latitude': latitude,
                 'longitude': longitude,
-                # 'ponto_interesse': ... (não mapeado diretamente do GeoJSON, pode ser adicionado depois)
             }
 
             try:
@@ -67,7 +57,21 @@ class Command(BaseCommand):
                     self.stdout.write(self.style.SUCCESS(f'Placa "{placa.codigo_qr}" criada.'))
                 else:
                     self.stdout.write(self.style.SUCCESS(f'Placa "{placa.codigo_qr}" atualizada.'))
+
+                # Processar atividades
+                atividades_str = properties.get('atividades permitidas')
+                if atividades_str:
+                    # Limpar atividades existentes para evitar duplicatas em atualizações
+                    PlacaAtividade.objects.filter(placa=placa).delete()
+
+                    atividades_list = [a.strip() for a in atividades_str.split(',') if a.strip()]
+                    for atividade_nome in atividades_list:
+                        atividade, created_atividade = Atividade.objects.get_or_create(nome=atividade_nome)
+                        if created_atividade:
+                            self.stdout.write(self.style.SUCCESS(f'Atividade "{atividade_nome}" criada.'))
+                        PlacaAtividade.objects.create(placa=placa, atividade=atividade)
+
             except Exception as e:
                 self.stderr.write(self.style.ERROR(f'Erro ao processar placa "{codigo_qr}": {e}'))
 
-        self.stdout.write(self.style.SUCCESS('Importação de placas concluída.'))
+        self.stdout.write(self.style.SUCCESS('Importação de placas e atividades concluída.'))
