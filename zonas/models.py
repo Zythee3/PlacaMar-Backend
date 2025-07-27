@@ -25,7 +25,7 @@ import uuid # Importar uuid
 
 class QRCode(models.Model):
     code = models.CharField(max_length=255, unique=True, help_text="O código único do QR Code.")
-    qr_code_value = models.UUIDField(editable=False, null=True, blank=True, help_text="Valor único para o QR Code físico.")
+    qr_code_value = models.UUIDField(default=uuid.uuid4, unique=True, editable=False, help_text="Valor único para o QR Code físico.")
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):

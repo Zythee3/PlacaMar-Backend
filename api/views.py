@@ -72,7 +72,7 @@ def registrar_acesso_qr(request):
             return JsonResponse({'error': 'Código QR não fornecido.'}, status=400)
 
         try:
-            qr_code_obj = QRCode.objects.get(code=qr_code_str) # Busca o objeto QRCode
+            qr_code_obj = QRCode.objects.get(qr_code_value=qr_code_str) # Busca o objeto QRCode pelo qr_code_value
         except QRCode.DoesNotExist:
             return JsonResponse({'error': 'QR Code não encontrado.'}, status=404)
 
@@ -89,6 +89,78 @@ def registrar_acesso_qr(request):
             via_qrcode=True
         )
         return JsonResponse({'message': 'Acesso QR registrado com sucesso.'}, status=200)
+    except json.JSONDecodeError:
+        return JsonResponse({'error': 'Requisição inválida. JSON malformado.'}, status=400)
+    except Exception as e:
+        return JsonResponse({'error': str(e)}, status=500)
+
+
+def get_quiz_question(request, conteudo_id, question_index):
+    try:
+        conteudo_educativo = ConteudoEducativo.objects.get(id=conteudo_id)
+        quiz_data = conteudo_educativo.quiz_data
+
+        if not quiz_data or 'questions' not in quiz_data:
+            return JsonResponse({'error': 'Quiz não encontrado para este conteúdo educativo.'}, status=404)
+
+        questions = quiz_data['questions']
+        if not (0 <= question_index < len(questions)):
+            return JsonResponse({'error': 'Índice da pergunta inválido.'}, status=400)
+
+        question = questions[question_index]
+        return JsonResponse({
+            'question_index': question_index,
+            'question_text': question['question_text'],
+            'options': question['options'],
+            'total_questions': len(questions)
+        })
+    except ConteudoEducativo.DoesNotExist:
+        return JsonResponse({'error': 'Conteúdo Educativo não encontrado.'}, status=404)
+    except Exception as e:
+        return JsonResponse({'error': str(e)}, status=500)
+
+@csrf_exempt
+@require_POST
+def submit_quiz_answer(request, conteudo_id, question_index):
+    try:
+        conteudo_educativo = ConteudoEducativo.objects.get(id=conteudo_id)
+        quiz_data = conteudo_educativo.quiz_data
+
+        if not quiz_data or 'questions' not in quiz_data:
+            return JsonResponse({'error': 'Quiz não encontrado para este conteúdo educativo.'}, status=404)
+
+        questions = quiz_data['questions']
+        if not (0 <= question_index < len(questions)):
+            return JsonResponse({'error': 'Índice da pergunta inválido.'}, status=400)
+
+        data = json.loads(request.body)
+        user_answer_index = data.get('answer_index')
+
+        if user_answer_index is None:
+            return JsonResponse({'error': 'Índice da resposta não fornecido.'}, status=400)
+
+        question = questions[question_index]
+        is_correct = (user_answer_index == question['correct_answer_index'])
+
+        next_question_index = question_index + 1
+        is_last_question = (next_question_index >= len(questions))
+
+        response_data = {
+            'is_correct': is_correct,
+            'current_question_index': question_index
+        }
+
+        if is_last_question:
+            # Aqui você pode adicionar lógica para calcular a pontuação total se desejar
+            response_data['message'] = 'Quiz concluído!'
+            response_data['final_result'] = 'Você respondeu a todas as perguntas.' # Exemplo de resultado final
+        else:
+            response_data['next_question_index'] = next_question_index
+            response_data['message'] = 'Resposta registrada. Próxima pergunta.'
+
+        return JsonResponse(response_data)
+    except ConteudoEducativo.DoesNotExist:
+        return JsonResponse({'error': 'Conteúdo Educativo não encontrado.'}, status=404)
     except json.JSONDecodeError:
         return JsonResponse({'error': 'Requisição inválida. JSON malformado.'}, status=400)
     except Exception as e:

@@ -5,8 +5,8 @@ class ConteudoEducativo(models.Model):
     tipo = models.CharField(max_length=255)
     conteudo = models.TextField()
     topico = models.CharField(max_length=255, blank=True, null=True)
-    ponto_interesse = models.ForeignKey('zonas.PontoDeInteresse', on_delete=models.SET_NULL, null=True, blank=True, related_name='conteudos_educativos')
-    zona = models.ForeignKey('zonas.Zona', on_delete=models.SET_NULL, null=True, blank=True, related_name='conteudos_educativos')
+    placa = models.ForeignKey('zonas.Placa', on_delete=models.SET_NULL, null=True, blank=True, related_name='conteudos_educativos')
+    quiz_data = models.JSONField(blank=True, null=True, help_text="Dados do quiz: perguntas, opções e respostas.")
 
     def __str__(self):
         return self.titulo

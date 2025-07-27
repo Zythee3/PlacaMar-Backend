@@ -14,8 +14,9 @@ class PontoDeInteresseAdmin(admin.ModelAdmin):
 
 @admin.register(QRCode)
 class QRCodeAdmin(admin.ModelAdmin):
-    list_display = ('code', 'created_at')
-    search_fields = ('code',)
+    list_display = ('code', 'qr_code_value', 'created_at')
+    search_fields = ('code', 'qr_code_value')
+    readonly_fields = ('qr_code_value',)
 
 @admin.register(Placa)
 class PlacaAdmin(admin.ModelAdmin):

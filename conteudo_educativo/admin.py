@@ -3,6 +3,14 @@ from .models import ConteudoEducativo
 
 @admin.register(ConteudoEducativo)
 class ConteudoEducativoAdmin(admin.ModelAdmin):
-    list_display = ('titulo', 'tipo', 'topico', 'ponto_interesse', 'zona')
-    list_filter = ('tipo', 'topico', 'ponto_interesse', 'zona')
+    list_display = ('titulo', 'tipo', 'topico', 'placa')
+    list_filter = ('tipo', 'topico', 'placa')
     search_fields = ('titulo', 'conteudo')
+    fieldsets = (
+        (None, {
+            'fields': ('titulo', 'tipo', 'conteudo', 'topico', 'placa')
+        }),
+        ('Dados do Quiz', {
+            'fields': ('quiz_data',)
+        }),
+    )
