@@ -1,0 +1,48 @@
+Zona Marítima e Ambiente Praial
+descrição:  locais	Regras para lazer, aluguel náutico embarque/desembarque, pesca artesenal
+regras: Limite  de Embarcações/Desembarque, de pessoas por Embarque/Catamarã e de pessoas para Embarque/Muidas
+restrita: False
+geomtria
+
+Área de Proteção Ambiental
+descrição: Proteção ambiental e biodiversidade
+regras : APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável
+restrita: SIM
+geomtria:
+
+Zona Estuarina,  Santuário do Mero e Ambiente Praial
+descrição: Locais para Banhistas, Brinquedos Náuticos, Embarque/Desembarque
+regras: Limite  de Embarcações/Desembarque, de pessoas por Embarque/Catamarã e de pessoas para Embarque/Muidas
+restrita: False
+geomtria
+
+Zona Marítima Subzona Plataforma Continental
+descrição: Proteção ambiental e biodiversidade
+regras : APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável
+restrita: SIM
+geomtria:
+
+
+Zona Estuarina Sant. do Mero
+descrição: Locais para Banhistas, Brinquedos Náuticos, Embarque/Desembarque
+regras: Limite  de Embarcações/Desembarque, de pessoas, por Embarque/Catamarã e de pessoas para Embarque/Muidas 
+restrita: False
+geomtria
+
+Zona Marítima
+descrição: 	Plataforma recifal ao largo da costa.  largo da costa	Proteção dos recifes e biodiversidade marinha. Banhistas, Embarque/Desembarque Fundeio na borda/ compartilhada com Pesca Artesanal
+regras: Proibição de construções e barracas
+restrita: 
+geomtria
+
+Zona Marítima e Piscina Naturais
+descrição: Locais turísticos em piscinas naturais	
+regras: Embarque restrito	
+restrita: TRUE
+geomtria
+
+Zona Marítima e Ambiente Praial e Piscina Naturais
+descrição: Lazer, embarque/desembarque, pesca artesanal	
+regras: Limites e proibições de acesso	
+restrita: FALSE
+geomtria

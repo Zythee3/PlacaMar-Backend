@@ -2,7 +2,7 @@ import os
 import json
 from django.core.management.base import BaseCommand
 from django.contrib.gis.geos import Point
-from zonas.models import Zona, Placa, Atividade, PlacaAtividade
+from zonas.models import Zona, Placa, Atividade, PlacaAtividade, QRCode
 
 class Command(BaseCommand):
     help = 'Importa dados de placas de um arquivo GeoJSON para o banco de dados.'
@@ -38,11 +38,20 @@ class Command(BaseCommand):
             longitude, latitude = geometry['coordinates']
             location = Point(longitude, latitude, srid=4326) # SRID 4326 para WGS84
 
-            codigo_qr = properties.get('nome_placa', f'Placa-{properties.get("nº", "N/A")}')
+            qr_code_str = properties.get('nome_placa', f'Placa-{properties.get("nº", "N/A")}')
+
+            # Obter ou criar o QRCode
+            qr_code_obj, qr_created = QRCode.objects.get_or_create(code=qr_code_str)
+            if qr_created:
+                self.stdout.write(self.style.SUCCESS(f'QRCode "{qr_code_str}" criado.'))
 
             placa_data = {
                 'zona': zona,
                 'descricao': properties.get('descricao_(conteudo)'),
+                'acesso_restrito': False, # Definido como False por padrão
+                'num_embarcacoes_desembarque': properties.get('nº de embarcações/desembarque'),
+                'max_pessoas_catamara': properties.get('nº maximo de pessoas por embarque/catamarã'),
+                'max_pessoas_miudas': properties.get('nº maximo de pessoas para embarque/miúdas'),
                 'atividades_autorizadas': properties.get('atividades permitidas'), # JSONField
                 'latitude': latitude,
                 'longitude': longitude,
@@ -50,13 +59,13 @@ class Command(BaseCommand):
 
             try:
                 placa, created = Placa.objects.update_or_create(
-                    codigo_qr=codigo_qr,
+                    qr_code=qr_code_obj,
                     defaults=placa_data
                 )
                 if created:
-                    self.stdout.write(self.style.SUCCESS(f'Placa "{placa.codigo_qr}" criada.'))
+                    self.stdout.write(self.style.SUCCESS(f'Placa "{qr_code_obj.code}" criada.'))
                 else:
-                    self.stdout.write(self.style.SUCCESS(f'Placa "{placa.codigo_qr}" atualizada.'))
+                    self.stdout.write(self.style.SUCCESS(f'Placa "{qr_code_obj.code}" atualizada.'))
 
                 # Processar atividades
                 atividades_str = properties.get('atividades permitidas')

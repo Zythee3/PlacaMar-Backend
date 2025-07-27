@@ -19,10 +19,21 @@ class QRCodeAdmin(admin.ModelAdmin):
 
 @admin.register(Placa)
 class PlacaAdmin(admin.ModelAdmin):
-    list_display = ('qr_code', 'zona', 'ponto_interesse')
-    list_filter = ('zona', 'ponto_interesse')
+    list_display = ('qr_code', 'zona', 'ponto_interesse', 'acesso_restrito', 'num_embarcacoes_desembarque', 'max_pessoas_catamara', 'max_pessoas_miudas')
+    list_filter = ('zona', 'ponto_interesse', 'acesso_restrito')
     search_fields = ('descricao',)
     raw_id_fields = ('qr_code',)
+    fieldsets = (
+        (None, {
+            'fields': ('zona', 'qr_code', 'descricao', 'ponto_interesse', 'acesso_restrito')
+        }),
+        ('Informações de Embarque/Desembarque', {
+            'fields': ('num_embarcacoes_desembarque', 'max_pessoas_catamara', 'max_pessoas_miudas')
+        }),
+        ('Atividades e Localização', {
+            'fields': ('atividades_autorizadas', 'latitude', 'longitude')
+        }),
+    )
 
 @admin.register(Atividade)
 class AtividadeAdmin(admin.ModelAdmin):

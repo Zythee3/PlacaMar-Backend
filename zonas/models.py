@@ -21,17 +21,29 @@ class PontoDeInteresse(models.Model):
     def __str__(self):
         return self.nome
 
+import uuid # Importar uuid
+
 class QRCode(models.Model):
     code = models.CharField(max_length=255, unique=True, help_text="O código único do QR Code.")
+    qr_code_value = models.UUIDField(editable=False, null=True, blank=True, help_text="Valor único para o QR Code físico.")
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.code
 
+    def save(self, *args, **kwargs):
+        if not self.qr_code_value:
+            self.qr_code_value = uuid.uuid4()
+        super().save(*args, **kwargs)
+
 class Placa(models.Model):
     zona = models.ForeignKey(Zona, on_delete=models.CASCADE, related_name='placas')
     qr_code = models.OneToOneField(QRCode, on_delete=models.CASCADE, related_name='placa', null=True, blank=True, help_text="O QR Code associado a esta placa.")
     descricao = models.TextField(blank=True, null=True)
+    acesso_restrito = models.BooleanField(default=False, help_text="Indica se o acesso a esta placa é restrito.")
+    num_embarcacoes_desembarque = models.IntegerField(null=True, blank=True, help_text="Número de embarcações permitidas para embarque/desembarque.")
+    max_pessoas_catamara = models.IntegerField(null=True, blank=True, help_text="Número máximo de pessoas por catamarã.")
+    max_pessoas_miudas = models.IntegerField(null=True, blank=True, help_text="Número máximo de pessoas para embarcações miúdas.")
     atividades_autorizadas = models.JSONField(blank=True, null=True)
     latitude = models.FloatField(blank=True, null=True)
     longitude = models.FloatField(blank=True, null=True)
