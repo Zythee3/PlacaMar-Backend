@@ -5,4 +5,6 @@ urlpatterns = [
     path('placas/', include('api.placas.urls')),
     path('choices/', views.get_choices_view, name='choices'),
     path('cidades-por-estado/<int:estado_id>/', views.get_cidades_por_estado_view, name='cidades_por_estado'),
+    path('registrar-acesso-qr/', views.registrar_acesso_qr, name='registrar_acesso_qr'),
 ]
+

@@ -72,6 +72,6 @@ class Command(BaseCommand):
                         PlacaAtividade.objects.create(placa=placa, atividade=atividade)
 
             except Exception as e:
-                self.stderr.write(self.style.ERROR(f'Erro ao processar placa "{codigo_qr}": {e}'))
+                self.stderr.write(self.style.ERROR(f'Erro ao processar placa "{qr_code_str}": {e}'))
 
         self.stdout.write(self.style.SUCCESS('Importação de placas e atividades concluída.'))

@@ -34,9 +34,9 @@ class RelatorioGestaoAdmin(admin.ModelAdmin):
 
 @admin.register(AcessoQR)
 class AcessoQRAdmin(admin.ModelAdmin):
-    list_display = ('placa', 'usuario', 'timestamp_acesso')
-    list_filter = ('placa', 'usuario')
-    raw_id_fields = ('placa', 'usuario')
+    list_display = ('qr_code', 'usuario', 'timestamp_acesso')
+    list_filter = ('qr_code', 'usuario')
+    raw_id_fields = ('qr_code', 'usuario')
 
 @admin.register(HistoricoAcessoZona)
 class HistoricoAcessoZonaAdmin(admin.ModelAdmin):

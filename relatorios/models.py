@@ -28,7 +28,7 @@ class RelatorioGestao(models.Model):
         return f"Relatório de {self.tipo_relatorio} - {self.data_geracao.strftime('%Y-%m-%d')}"
 
 class AcessoQR(models.Model):
-    placa = models.ForeignKey('zonas.Placa', on_delete=models.CASCADE)
+    qr_code = models.ForeignKey('zonas.QRCode', on_delete=models.CASCADE, related_name='acessos', null=True, blank=True)
     usuario = models.ForeignKey('usuarios.Usuario', on_delete=models.SET_NULL, null=True, blank=True)
     timestamp_acesso = models.DateTimeField(auto_now_add=True)
     latitude_dispositivo = models.DecimalField(max_digits=10, decimal_places=8, null=True, blank=True)
@@ -36,7 +36,7 @@ class AcessoQR(models.Model):
     info_dispositivo = models.CharField(max_length=255, blank=True, null=True)
 
     def __str__(self):
-        return f"Acesso QR {self.placa.codigo_qr} por {self.usuario.username if self.usuario else 'Anônimo'}"
+        return f"Acesso QR {self.qr_code.code} por {self.usuario.username if self.usuario else 'Anônimo'}"
 
 class HistoricoAcessoZona(models.Model):
     usuario = models.ForeignKey('usuarios.Usuario', on_delete=models.CASCADE)

@@ -54,3 +54,43 @@ def get_cidades_por_estado_view(request, estado_id):
         return JsonResponse({'cidades': cidades})
     except Estado.DoesNotExist:
         return JsonResponse({'error': 'Estado não encontrado.'}, status=404)
+
+from django.views.decorators.csrf import csrf_exempt
+from django.views.decorators.http import require_POST
+from zonas.models import Placa, QRCode # Adicionado QRCode
+from relatorios.models import AcessoQR
+from usuarios.models import Usuario # Assumindo que o modelo de usuário está aqui
+
+@csrf_exempt
+@require_POST
+def registrar_acesso_qr(request):
+    try:
+        data = json.loads(request.body)
+        qr_code_str = data.get('codigo_qr') # Renomeado para qr_code_str
+
+        if not qr_code_str:
+            return JsonResponse({'error': 'Código QR não fornecido.'}, status=400)
+
+        try:
+            qr_code_obj = QRCode.objects.get(code=qr_code_str) # Busca o objeto QRCode
+        except QRCode.DoesNotExist:
+            return JsonResponse({'error': 'QR Code não encontrado.'}, status=404)
+
+        usuario = None
+        if request.user.is_authenticated:
+            try:
+                usuario = Usuario.objects.get(id=request.user.id)
+            except Usuario.DoesNotExist:
+                pass
+
+        AcessoQR.objects.create(
+            qr_code=qr_code_obj, # Usa o objeto QRCode
+            usuario=usuario,
+            via_qrcode=True
+        )
+        return JsonResponse({'message': 'Acesso QR registrado com sucesso.'}, status=200)
+    except json.JSONDecodeError:
+        return JsonResponse({'error': 'Requisição inválida. JSON malformado.'}, status=400)
+    except Exception as e:
+        return JsonResponse({'error': str(e)}, status=500)
+

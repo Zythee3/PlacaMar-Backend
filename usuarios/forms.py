@@ -2,10 +2,12 @@ from django import forms
 from django.contrib.auth.forms import UserChangeForm, UserCreationForm
 from .models import Usuario
 from api.models import Estado, Cidade
+from api.views import SEXO_CHOICES
 
 class UsuarioAdminForm(UserChangeForm):
     estado_origem = forms.ModelChoiceField(queryset=Estado.objects.all(), required=False, empty_label="---------")
     cidade_origem = forms.ModelChoiceField(queryset=Cidade.objects.none(), required=False, empty_label="---------")
+    sexo = forms.ChoiceField(choices=[('', '---------')] + [(sexo, sexo) for sexo in SEXO_CHOICES], required=False)
 
     class Meta(UserChangeForm.Meta):
         model = Usuario
@@ -47,6 +49,7 @@ class UsuarioAdminForm(UserChangeForm):
 class UsuarioAdminCreationForm(UserCreationForm):
     estado_origem = forms.ModelChoiceField(queryset=Estado.objects.all(), required=False, empty_label="---------")
     cidade_origem = forms.ModelChoiceField(queryset=Cidade.objects.none(), required=False, empty_label="---------")
+    sexo = forms.ChoiceField(choices=[('', '---------')] + [(sexo, sexo) for sexo in SEXO_CHOICES], required=False)
 
     class Meta(UserCreationForm.Meta):
         model = Usuario
