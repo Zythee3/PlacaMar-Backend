@@ -21,12 +21,3 @@ class AdminCreateSerializer(serializers.ModelSerializer):
             password=validated_data['password'],
         )
         return user
-
-from .models import HistoricoLocalizacao
-from rest_framework_gis.serializers import GeoFeatureModelSerializer
-
-class HistoricoLocalizacaoSerializer(GeoFeatureModelSerializer):
-    class Meta:
-        model = HistoricoLocalizacao
-        geo_field = "ponto"
-        fields = ['id', 'ponto', 'timestamp']
