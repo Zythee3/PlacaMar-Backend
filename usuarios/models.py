@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
+from api.models import Estado, Cidade
 
 PAISES_CHOICES = [
     ('Argentina', 'Argentina'),
@@ -40,8 +41,8 @@ class Usuario(AbstractUser):
     tipo_perfil = models.CharField(max_length=50, default='Turista')
     idade = models.IntegerField(null=True, blank=True)
     pais_origem = models.CharField(max_length=255, choices=PAISES_CHOICES, default='Brasil')
-    estado_origem = models.CharField(max_length=255, null=True, blank=True)
-    cidade_origem = models.CharField(max_length=255, null=True, blank=True)
+    estado_origem = models.ForeignKey(Estado, on_delete=models.SET_NULL, null=True, blank=True)
+    cidade_origem = models.ForeignKey(Cidade, on_delete=models.SET_NULL, null=True, blank=True)
     sexo = models.CharField(max_length=10, null=True, blank=True)
     criado_em = models.DateTimeField(auto_now_add=True)
 

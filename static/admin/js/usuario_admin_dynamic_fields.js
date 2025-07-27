@@ -3,67 +3,65 @@
         var paisOrigemField = $('#id_pais_origem');
         var estadoOrigemField = $('#id_estado_origem');
         var cidadeOrigemField = $('#id_cidade_origem');
+        var sexoField = $('#id_sexo');
 
-        var estadosBrasileiros = [
-            {value: 'AC', text: 'Acre'}, {value: 'AL', text: 'Alagoas'}, {value: 'AP', text: 'Amapá'},
-            {value: 'AM', text: 'Amazonas'}, {value: 'BA', text: 'Bahia'}, {value: 'CE', text: 'Ceará'},
-            {value: 'DF', text: 'Distrito Federal'}, {value: 'ES', text: 'Espírito Santo'}, {value: 'GO', text: 'Goiás'},
-            {value: 'MA', text: 'Maranhão'}, {value: 'MT', text: 'Mato Grosso'}, {value: 'MS', text: 'Mato Grosso do Sul'},
-            {value: 'MG', text: 'Minas Gerais'}, {value: 'PA', text: 'Pará'}, {value: 'PB', text: 'Paraíba'},
-            {value: 'PR', text: 'Paraná'}, {value: 'PE', text: 'Pernambuco'}, {value: 'PI', text: 'Piauí'},
-            {value: 'RJ', text: 'Rio de Janeiro'}, {value: 'RN', text: 'Rio Grande do Norte'}, {value: 'RS', text: 'Rio Grande do Sul'},
-            {value: 'RO', text: 'Rondônia'}, {value: 'RR', text: 'Roraima'}, {value: 'SC', text: 'Santa Catarina'},
-            {value: 'SP', text: 'São Paulo'}, {value: 'SE', text: 'Sergipe'}, {value: 'TO', text: 'Tocantins'}
-        ];
+        var estadosBrasileiros = [];
+        var cidadesPorEstado = {};
+        var sexoChoices = [];
 
-        var cidadesPorEstado = {
-            'AC': ['Rio Branco', 'Cruzeiro do Sul', 'Sena Madureira', 'Tarauacá'],
-            'AL': ['Maceió', 'Arapiraca', 'Palmeira dos Índios', 'Rio Largo'],
-            'AP': ['Macapá', 'Santana', 'Laranjal do Jari', 'Oiapoque'],
-            'AM': ['Manaus', 'Parintins', 'Itacoatiara', 'Coari'],
-            'BA': ['Salvador', 'Feira de Santana', 'Vitória da Conquista', 'Camaçari', 'Itabuna'],
-            'CE': ['Fortaleza', 'Juazeiro do Norte', 'Sobral', 'Caucaia', 'Maracanaú'],
-            'DF': ['Brasília', 'Ceilândia', 'Taguatinga', 'Samambaia'],
-            'ES': ['Vitória', 'Vila Velha', 'Serra', 'Cariacica', 'Linhares'],
-            'GO': ['Goiânia', 'Aparecida de Goiânia', 'Anápolis', 'Rio Verde', 'Luziânia'],
-            'MA': ['São Luís', 'Imperatriz', 'Caxias', 'Timon'],
-            'MT': ['Cuiabá', 'Várzea Grande', 'Rondonópolis', 'Sinop'],
-            'MS': ['Campo Grande', 'Dourados', 'Três Lagoas', 'Corumbá'],
-            'MG': ['Belo Horizonte', 'Uberlândia', 'Contagem', 'Juiz de Fora', 'Betim', 'Montes Claros'],
-            'PA': ['Belém', 'Ananindeua', 'Santarém', 'Marabá', 'Parauapebas'],
-            'PB': ['João Pessoa', 'Campina Grande', 'Patos', 'Santa Rita'],
-            'PR': ['Curitiba', 'Londrina', 'Maringá', 'Ponta Grossa', 'Cascavel'],
-            'PE': ['Recife', 'Jaboatão dos Guararapes', 'Olinda', 'Caruaru', 'Petrolina'],
-            'PI': ['Teresina', 'Parnaíba', 'Picos', 'Floriano'],
-            'RJ': ['Rio de Janeiro', 'Niterói', 'Duque de Caxias', 'Nova Iguaçu', 'São Gonçalo', 'Petrópolis'],
-            'RN': ['Natal', 'Mossoró', 'Parnamirim', 'Caicó'],
-            'RS': ['Porto Alegre', 'Caxias do Sul', 'Pelotas', 'Canoas', 'Santa Maria'],
-            'RO': ['Porto Velho', 'Ji-Paraná', 'Ariquemes', 'Cacoal'],
-            'RR': ['Boa Vista', 'Rorainópolis', 'Caracaraí'],
-            'SC': ['Florianópolis', 'Joinville', 'Blumenau', 'Chapecó', 'Criciúma'],
-            'SP': ['São Paulo', 'Campinas', 'Santos', 'São Bernardo do Campo', 'Guarulhos', 'Ribeirão Preto', 'Sorocaba', 'São José dos Campos'],
-            'SE': ['Aracaju', 'Nossa Senhora do Socorro', 'Lagarto', 'Itabaiana'],
-            'TO': ['Palmas', 'Araguaína', 'Gurupi', 'Porto Nacional']
-        };
+        // Fetch choices from backend
+        $.ajax({
+            url: '/api/choices/',
+            method: 'GET',
+            success: function(data) {
+                estadosBrasileiros = data.estados_brasileiros;
+                sexoChoices = data.sexo;
+                // Populate sexo field
+                sexoField.empty();
+                sexoField.append($('<option></option>').attr('value', '').text('Selecione'));
+                $.each(sexoChoices, function(i, opcao) {
+                    sexoField.append($('<option></option>').attr('value', opcao).text(opcao));
+                });
+                // Initialize dynamic fields after data is loaded
+                toggleEstadoCidadeFields();
+                // Trigger change event to ensure initial population if a country is already selected
+                paisOrigemField.trigger('change');
+            },
+            error: function(error) {
+                console.error('Erro ao buscar opções do backend:', error);
+            }
+        });
 
         function atualizarCidades() {
-            var estado = estadoOrigemField.val();
-            cidadeOrigemField.empty();
+            var estadoId = estadoOrigemField.val();
+            console.log('atualizarCidades: País selecionado:', paisOrigemField.val());
+            console.log('atualizarCidades: Estado selecionado (ID):', estadoId);
 
-            if (paisOrigemField.val() !== 'Brasil') {
+            cidadeOrigemField.empty();
+            cidadeOrigemField.append($('<option></option>').attr('value', '').text('---------'));
+
+            if (paisOrigemField.val() !== 'Brasil' || !estadoId) {
+                console.log('atualizarCidades: País não é Brasil ou estadoId vazio. Adicionando "Outro".');
                 cidadeOrigemField.append($('<option></option>').attr('value', 'Outro').text('Outro'));
                 cidadeOrigemField.val('Outro');
                 return;
             }
 
-            if (cidadesPorEstado.hasOwnProperty(estado)) {
-                cidadeOrigemField.append($('<option></option>').attr('value', '').text('---------'));
-                $.each(cidadesPorEstado[estado], function(i, cidade) {
-                    cidadeOrigemField.append($('<option></option>').attr('value', cidade).text(cidade));
-                });
-            } else {
-                cidadeOrigemField.append($('<option></option>').attr('value', 'Outro').text('Outro'));
-            }
+            $.ajax({
+                url: '/api/cidades-por-estado/' + estadoId + '/',
+                method: 'GET',
+                success: function(data) {
+                    console.log('Cidades recebidas:', data.cidades);
+                    $.each(data.cidades, function(i, cidade) {
+                        cidadeOrigemField.append($('<option></option>').attr('value', cidade.id).text(cidade.nome));
+                    });
+                },
+                error: function(error) {
+                    console.error('Erro ao buscar cidades:', error);
+                    cidadeOrigemField.append($('<option></option>').attr('value', 'Outro').text('Outro'));
+                    cidadeOrigemField.val('Outro');
+                }
+            });
         }
 
         function toggleEstadoCidadeFields() {
@@ -75,8 +73,8 @@
                 $.each(estadosBrasileiros, function(i, estado) {
                     estadoOrigemField.append($('<option></option>').attr('value', estado.value).text(estado.text));
                 });
+                estadoOrigemField.trigger('change'); // Trigger change to update cities
                 cidadeOrigemField.closest('.form-row').show();
-                atualizarCidades();
             } else {
                 estadoOrigemField.append($('<option></option>').attr('value', 'Outro').text('Outro'));
                 estadoOrigemField.val('Outro');
@@ -87,9 +85,6 @@
 
             estadoOrigemField.closest('.form-row').show();
         }
-
-        // Inicializa
-        toggleEstadoCidadeFields();
 
         // Eventos
         paisOrigemField.change(toggleEstadoCidadeFields);

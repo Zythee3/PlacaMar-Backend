@@ -1,21 +1,11 @@
 from django import forms
 from django.contrib.auth.forms import UserChangeForm, UserCreationForm
 from .models import Usuario
-
-ESTADOS_BRASILEIROS = [
-    ('AC', 'Acre'), ('AL', 'Alagoas'), ('AP', 'Amapá'), ('AM', 'Amazonas'),
-    ('BA', 'Bahia'), ('CE', 'Ceará'), ('DF', 'Distrito Federal'), ('ES', 'Espírito Santo'),
-    ('GO', 'Goiás'), ('MA', 'Maranhão'), ('MT', 'Mato Grosso'), ('MS', 'Mato Grosso do Sul'),
-    ('MG', 'Minas Gerais'), ('PA', 'Pará'), ('PB', 'Paraíba'), ('PR', 'Paraná'),
-    ('PE', 'Pernambuco'), ('PI', 'Piauí'), ('RJ', 'Rio de Janeiro'), ('RN', 'Rio Grande do Norte'),
-    ('RS', 'Rio Grande do Sul'), ('RO', 'Rondônia'), ('RR', 'Roraima'), ('SC', 'Santa Catarina'),
-    ('SP', 'São Paulo'), ('SE', 'Sergipe'), ('TO', 'Tocantins'),
-]
-
-ESTADOS_CHOICES_COMPLETA = [('', '---------')] + ESTADOS_BRASILEIROS + [('Outro', 'Outro')]
+from api.models import Estado, Cidade
 
 class UsuarioAdminForm(UserChangeForm):
-    estado_origem = forms.ChoiceField(choices=ESTADOS_CHOICES_COMPLETA, required=False)
+    estado_origem = forms.ModelChoiceField(queryset=Estado.objects.all(), required=False, empty_label="---------")
+    cidade_origem = forms.ModelChoiceField(queryset=Cidade.objects.none(), required=False, empty_label="---------")
 
     class Meta(UserChangeForm.Meta):
         model = Usuario
@@ -25,6 +15,17 @@ class UsuarioAdminForm(UserChangeForm):
             'tipo_perfil', 'idade', 'pais_origem', 'estado_origem', 'cidade_origem', 'sexo',
         )
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        if 'estado_origem' in self.initial:
+            try:
+                estado_id = self.initial['estado_origem']
+                self.fields['cidade_origem'].queryset = Cidade.objects.filter(estado_id=estado_id).order_by('nome')
+            except (TypeError, ValueError):
+                pass
+        elif self.instance.pk and self.instance.estado_origem:
+            self.fields['cidade_origem'].queryset = self.instance.estado_origem.cidades.order_by('nome')
+
     def clean(self):
         cleaned_data = super().clean()
         pais_origem = cleaned_data.get('pais_origem')
@@ -32,24 +33,20 @@ class UsuarioAdminForm(UserChangeForm):
         cidade_origem = cleaned_data.get('cidade_origem')
 
         if pais_origem == 'Brasil':
-            if not estado_origem or estado_origem == 'Outro':
-                self.add_error('estado_origem', 'Este campo é obrigatório e deve ser um estado válido para o Brasil.')
-            # Se estado_origem for preenchido, cidade_origem também é obrigatório
+            if not estado_origem:
+                self.add_error('estado_origem', 'Este campo é obrigatório para o Brasil.')
             if estado_origem and not cidade_origem:
                 self.add_error('cidade_origem', 'Este campo é obrigatório para o Brasil quando o estado é preenchido.')
         else:
-            # Se não for Brasil, estado_origem deve ser 'Outro' ou vazio
-            if estado_origem and estado_origem != 'Outro':
-                self.add_error('estado_origem', 'Para outros países, o estado deve ser \'Outro\' ou vazio.')
-            if not estado_origem:
-                cleaned_data['estado_origem'] = None
-            if not cidade_origem:
-                cleaned_data['cidade_origem'] = None
+            # Para outros países, estado_origem e cidade_origem devem ser nulos
+            cleaned_data['estado_origem'] = None
+            cleaned_data['cidade_origem'] = None
 
         return cleaned_data
 
 class UsuarioAdminCreationForm(UserCreationForm):
-    estado_origem = forms.ChoiceField(choices=ESTADOS_CHOICES_COMPLETA, required=False)
+    estado_origem = forms.ModelChoiceField(queryset=Estado.objects.all(), required=False, empty_label="---------")
+    cidade_origem = forms.ModelChoiceField(queryset=Cidade.objects.none(), required=False, empty_label="---------")
 
     class Meta(UserCreationForm.Meta):
         model = Usuario
@@ -57,6 +54,17 @@ class UsuarioAdminCreationForm(UserCreationForm):
             'username', 'email', 'tipo_perfil', 'idade', 'pais_origem', 'estado_origem', 'cidade_origem', 'sexo',
         )
 
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        if 'estado_origem' in self.initial:
+            try:
+                estado_id = self.initial['estado_origem']
+                self.fields['cidade_origem'].queryset = Cidade.objects.filter(estado_id=estado_id).order_by('nome')
+            except (TypeError, ValueError):
+                pass
+        elif self.instance.pk and self.instance.estado_origem:
+            self.fields['cidade_origem'].queryset = self.instance.estado_origem.cidades.order_by('nome')
+
     def clean(self):
         cleaned_data = super().clean()
         pais_origem = cleaned_data.get('pais_origem')
@@ -64,16 +72,12 @@ class UsuarioAdminCreationForm(UserCreationForm):
         cidade_origem = cleaned_data.get('cidade_origem')
 
         if pais_origem == 'Brasil':
-            if not estado_origem or estado_origem == 'Outro':
-                self.add_error('estado_origem', 'Este campo é obrigatório e deve ser um estado válido para o Brasil.')
+            if not estado_origem:
+                self.add_error('estado_origem', 'Este campo é obrigatório para o Brasil.')
             if estado_origem and not cidade_origem:
                 self.add_error('cidade_origem', 'Este campo é obrigatório para o Brasil quando o estado é preenchido.')
         else:
-            if estado_origem and estado_origem != 'Outro':
-                self.add_error('estado_origem', 'Para outros países, o estado deve ser \'Outro\' ou vazio.')
-            if not estado_origem:
-                cleaned_data['estado_origem'] = None
-            if not cidade_origem:
-                cleaned_data['cidade_origem'] = None
+            cleaned_data['estado_origem'] = None
+            cleaned_data['cidade_origem'] = None
 
         return cleaned_data
