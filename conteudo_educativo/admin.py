@@ -3,7 +3,7 @@ from .models import ConteudoEducativo
 
 @admin.register(ConteudoEducativo)
 class ConteudoEducativoAdmin(admin.ModelAdmin):
-    list_display = ('titulo', 'tipo', 'topico', 'placa')
+    list_display = ('id', 'titulo', 'tipo', 'topico', 'placa')
     list_filter = ('tipo', 'topico', 'placa')
     search_fields = ('titulo', 'conteudo')
     fieldsets = (

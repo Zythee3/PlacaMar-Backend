@@ -59,7 +59,8 @@ from django.views.decorators.csrf import csrf_exempt
 from django.views.decorators.http import require_POST
 from zonas.models import Placa, QRCode # Adicionado QRCode
 from relatorios.models import AcessoQR
-from usuarios.models import Usuario # Assumindo que o modelo de usuário está aqui
+from usuarios.models import Usuario
+from conteudo_educativo.models import ConteudoEducativo # Assumindo que o modelo de usuário está aqui
 
 @csrf_exempt
 @require_POST
@@ -91,6 +92,25 @@ def registrar_acesso_qr(request):
         return JsonResponse({'message': 'Acesso QR registrado com sucesso.'}, status=200)
     except json.JSONDecodeError:
         return JsonResponse({'error': 'Requisição inválida. JSON malformado.'}, status=400)
+    except Exception as e:
+        return JsonResponse({'error': str(e)}, status=500)
+
+
+def get_conteudo_educativo_details(request, conteudo_id):
+    try:
+        conteudo_educativo = ConteudoEducativo.objects.get(id=conteudo_id)
+        data = {
+            'id': conteudo_educativo.id,
+            'titulo': conteudo_educativo.titulo,
+            'tipo': conteudo_educativo.tipo,
+            'conteudo': conteudo_educativo.conteudo,
+            'topico': conteudo_educativo.topico,
+            'placa_id': conteudo_educativo.placa.id if conteudo_educativo.placa else None,
+            'quiz_data': conteudo_educativo.quiz_data
+        }
+        return JsonResponse(data)
+    except ConteudoEducativo.DoesNotExist:
+        return JsonResponse({'error': 'Conteúdo Educativo não encontrado.'}, status=404)
     except Exception as e:
         return JsonResponse({'error': str(e)}, status=500)
 
