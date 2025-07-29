@@ -3,12 +3,22 @@ from django.contrib.gis.db import models
 class Zona(models.Model):
     nome = models.CharField(max_length=255)
     descricao = models.TextField(blank=True, null=True)
-    regras = models.TextField(blank=True, null=True)
     restrita = models.BooleanField(default=False)
     geometria = models.PolygonField(srid=4326, null=True, blank=True)
 
     def __str__(self):
         return self.nome
+
+class Subzona(models.Model):
+    zona = models.ForeignKey(Zona, on_delete=models.CASCADE, related_name='subzonas')
+    nome = models.CharField(max_length=255)
+    descricao = models.TextField(blank=True, null=True)
+    atividades_permitidas = models.TextField(blank=True, null=True)
+    atividades_proibidas = models.TextField(blank=True, null=True)
+    geometria = models.PolygonField(srid=4326, null=True, blank=True)
+
+    def __str__(self):
+        return f"{self.nome} ({self.zona.nome})"
 
 class PontoDeInteresse(models.Model):
     nome = models.CharField(max_length=255)
@@ -37,7 +47,9 @@ class QRCode(models.Model):
         super().save(*args, **kwargs)
 
 class Placa(models.Model):
-    zona = models.ForeignKey(Zona, on_delete=models.CASCADE, related_name='placas')
+    subzona = models.ForeignKey(Subzona, on_delete=models.CASCADE, related_name='placas', null=True, blank=True)
+    nome_placa = models.CharField(max_length=255, blank=True, null=True)
+    localidade_x = models.CharField(max_length=255, blank=True, null=True)
     qr_code = models.OneToOneField(QRCode, on_delete=models.CASCADE, related_name='placa', null=True, blank=True, help_text="O QR Code associado a esta placa.")
     descricao = models.TextField(blank=True, null=True)
     acesso_restrito = models.BooleanField(default=False, help_text="Indica se o acesso a esta placa é restrito.")
@@ -50,7 +62,7 @@ class Placa(models.Model):
     ponto_interesse = models.ForeignKey(PontoDeInteresse, on_delete=models.SET_NULL, null=True, blank=True, related_name='placas')
 
     def __str__(self):
-        return f"Placa {self.qr_code.code if self.qr_code else 'N/A'} ({self.zona.nome})"
+        return f"Placa {self.qr_code.code if self.qr_code else 'N/A'} ({self.subzona.nome})"
 
 class Atividade(models.Model):
     nome = models.CharField(max_length=255, unique=True)

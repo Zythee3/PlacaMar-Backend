@@ -1,10 +1,16 @@
 from django.contrib import admin
-from .models import Zona, PontoDeInteresse, Placa, Atividade, PlacaAtividade, QRCode
+from .models import Zona, PontoDeInteresse, Placa, Atividade, PlacaAtividade, QRCode, Subzona
 
 @admin.register(Zona)
 class ZonaAdmin(admin.ModelAdmin):
     list_display = ('nome', 'restrita')
     search_fields = ('nome',)
+
+@admin.register(Subzona)
+class SubzonaAdmin(admin.ModelAdmin):
+    list_display = ('nome', 'zona', 'geometria')
+    list_filter = ('zona',)
+    search_fields = ('nome', 'descricao')
 
 @admin.register(PontoDeInteresse)
 class PontoDeInteresseAdmin(admin.ModelAdmin):
@@ -20,13 +26,13 @@ class QRCodeAdmin(admin.ModelAdmin):
 
 @admin.register(Placa)
 class PlacaAdmin(admin.ModelAdmin):
-    list_display = ('qr_code', 'zona', 'ponto_interesse', 'acesso_restrito', 'num_embarcacoes_desembarque', 'max_pessoas_catamara', 'max_pessoas_miudas')
-    list_filter = ('zona', 'ponto_interesse', 'acesso_restrito')
-    search_fields = ('descricao',)
+    list_display = ('nome_placa', 'localidade_x', 'qr_code', 'subzona', 'ponto_interesse', 'acesso_restrito', 'num_embarcacoes_desembarque', 'max_pessoas_catamara', 'max_pessoas_miudas')
+    list_filter = ('subzona', 'ponto_interesse', 'acesso_restrito')
+    search_fields = ('nome_placa', 'descricao', 'localidade_x')
     raw_id_fields = ('qr_code',)
     fieldsets = (
         (None, {
-            'fields': ('zona', 'qr_code', 'descricao', 'ponto_interesse', 'acesso_restrito')
+            'fields': ('subzona', 'nome_placa', 'localidade_x', 'qr_code', 'descricao', 'ponto_interesse', 'acesso_restrito')
         }),
         ('Informações de Embarque/Desembarque', {
             'fields': ('num_embarcacoes_desembarque', 'max_pessoas_catamara', 'max_pessoas_miudas')
