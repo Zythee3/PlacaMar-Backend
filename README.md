@@ -1,5 +1,9 @@
 # PlacaMar-Backend
 
+# Extrair dados do BD 
+# EXEMEPLO
+docker-compose exec db pg_dump -U placamar -d placamar -t zonas_zona -t zonas_subzona -t zonas_placa > /home/rimaud/Placamar/PlacaMar-Backend/db_dump.sql
+
 ## Tecnologia usada:  Django com PostgreSQL e PostGIS para suporte a dados geográficos
 
 ## Logica do Banco de dados
