@@ -4,7 +4,7 @@ class Zona(models.Model):
     nome = models.CharField(max_length=255)
     descricao = models.TextField(blank=True, null=True)
     restrita = models.BooleanField(default=False)
-    geometria = models.PolygonField(srid=4326, null=True, blank=True)
+    geometria = models.MultiPolygonField(srid=4326, null=True, blank=True)
 
     def __str__(self):
         return self.nome
@@ -15,7 +15,7 @@ class Subzona(models.Model):
     descricao = models.TextField(blank=True, null=True)
     atividades_permitidas = models.TextField(blank=True, null=True)
     atividades_proibidas = models.TextField(blank=True, null=True)
-    geometria = models.PolygonField(srid=4326, null=True, blank=True)
+    geometria = models.MultiPolygonField(srid=4326, null=True, blank=True)
 
     def __str__(self):
         return f"{self.nome} ({self.zona.nome})"

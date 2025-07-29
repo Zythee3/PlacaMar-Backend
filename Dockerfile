@@ -8,9 +8,7 @@ ENV PYTHONUNBUFFERED 1
 # Instalar dependências do sistema
 # build-essential e libpq-dev são necessários para o psycopg2
 # gdal-bin e libgdal-dev são para as funcionalidades do PostGIS/GEOS
-RUN apt-get update \
-  && apt-get -y install build-essential libpq-dev gdal-bin libgdal-dev \
-  && rm -rf /var/lib/apt/lists/*
+RUN apt-get update   && apt-get -y install build-essential libpq-dev gdal-bin libgdal-dev netcat-traditional   && rm -rf /var/lib/apt/lists/*
 
 # Definir o diretório de trabalho dentro do container
 WORKDIR /app
@@ -26,7 +24,4 @@ COPY . /app/
 EXPOSE 8000
 
 # O comando padrão para iniciar a aplicação (usando 0.0.0.0 para ser acessível fora do container)
-COPY wait-for-it.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/wait-for-it.sh
-
-CMD ["wait-for-it.sh", "db:5432", "--", "python", "manage.py", "runserver", "0.0.0.0:8000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
