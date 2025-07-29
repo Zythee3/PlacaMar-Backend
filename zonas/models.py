@@ -56,7 +56,7 @@ class Placa(models.Model):
     num_embarcacoes_desembarque = models.IntegerField(null=True, blank=True, help_text="Número de embarcações permitidas para embarque/desembarque.")
     max_pessoas_catamara = models.IntegerField(null=True, blank=True, help_text="Número máximo de pessoas por catamarã.")
     max_pessoas_miudas = models.IntegerField(null=True, blank=True, help_text="Número máximo de pessoas para embarcações miúdas.")
-    atividades_autorizadas = models.JSONField(blank=True, null=True)
+    atividades_autorizadas = models.TextField(blank=True, null=True)
     latitude = models.FloatField(blank=True, null=True)
     longitude = models.FloatField(blank=True, null=True)
     ponto_interesse = models.ForeignKey(PontoDeInteresse, on_delete=models.SET_NULL, null=True, blank=True, related_name='placas')

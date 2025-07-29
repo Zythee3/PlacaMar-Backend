@@ -46,7 +46,7 @@ class Command(BaseCommand):
                 self.stdout.write(self.style.SUCCESS(f'QRCode "{qr_code_str}" criado.'))
 
             placa_data = {
-                'zona': zona,
+                'subzona': subzona,
                 'descricao': properties.get('descricao_(conteudo)'),
                 'acesso_restrito': False, # Definido como False por padrão
                 'num_embarcacoes_desembarque': properties.get('nº de embarcações/desembarque'),
