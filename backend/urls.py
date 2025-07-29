@@ -11,7 +11,7 @@ urlpatterns = [
     path('api/', include('api.urls')),
     path('api/admin/', include('core_admin.urls')),
     path('api/usuarios/', include('usuarios.urls')),
-
+    path('api/areas/', include('api.areas.urls')),
     path('api/auth/login/', TokenObtainPairView.as_view()),
     path('api/auth/refresh/', TokenRefreshView.as_view()),
 ]
