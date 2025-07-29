@@ -1,8 +1,9 @@
 import os
 import json
+import uuid
 from django.core.management.base import BaseCommand
 from django.contrib.gis.geos import Point
-from zonas.models import Zona, Placa, Atividade, PlacaAtividade, QRCode
+from zonas.models import Zona, Subzona, Placa, Atividade, PlacaAtividade, QRCode
 
 class Command(BaseCommand):
     help = 'Importa dados de placas de um arquivo GeoJSON para o banco de dados.'
@@ -23,36 +24,53 @@ class Command(BaseCommand):
             properties = feature['properties']
             geometry = feature['geometry']
 
-            # Extrair nome da zona
+            # Extrair nome da subzona e da zona
+            subzona_nome = properties.get('subzona')
             zona_nome = properties.get('zona')
-            if not zona_nome:
-                self.stderr.write(self.style.WARNING(f'Placa sem nome de zona, pulando: {properties.get("nome_placa", "N/A")}'))
+
+            if not subzona_nome or not zona_nome:
+                self.stderr.write(self.style.WARNING(f'Placa sem nome de subzona ou zona, pulando: {properties.get("nome_placa", "N/A")}'))
                 continue
 
             # Obter ou criar a Zona
-            zona, created = Zona.objects.get_or_create(nome=zona_nome)
-            if created:
+            zona, created_zona = Zona.objects.get_or_create(nome=zona_nome)
+            if created_zona:
                 self.stdout.write(self.style.SUCCESS(f'Zona "{zona_nome}" criada.'))
 
-            # Extrair coordenadas
-            longitude, latitude = geometry['coordinates']
-            location = Point(longitude, latitude, srid=4326) # SRID 4326 para WGS84
-
-            qr_code_str = properties.get('nome_placa', f'Placa-{properties.get("nº", "N/A")}')
+            # Obter ou criar a Subzona
+            subzona, created_subzona = Subzona.objects.get_or_create(zona=zona, nome=subzona_nome)
+            if created_subzona:
+                self.stdout.write(self.style.SUCCESS(f'Subzona "{subzona_nome}" (Zona: {zona_nome}) criada.'))
 
             # Obter ou criar o QRCode
-            qr_code_obj, qr_created = QRCode.objects.get_or_create(code=qr_code_str)
+            qr_code_uuid_str = properties.get('qr_code_uuid')
+            if qr_code_uuid_str:
+                qr_code_obj, qr_created = QRCode.objects.get_or_create(code=qr_code_uuid_str)
+            else:
+                # Se não houver UUID no GeoJSON, gerar um novo
+                qr_code_obj, qr_created = QRCode.objects.get_or_create(code=str(uuid.uuid4()))
+
             if qr_created:
-                self.stdout.write(self.style.SUCCESS(f'QRCode "{qr_code_str}" criado.'))
+                self.stdout.write(self.style.SUCCESS(f'QRCode "{qr_code_obj.code}" criado.'))
+
+            # Extrair coordenadas
+            latitude = properties.get('latitude')
+            longitude = properties.get('longitude')
+
+            if latitude is None or longitude is None:
+                self.stderr.write(self.style.WARNING(f'Placa "{properties.get("nome_placa", "N/A")}" sem latitude ou longitude, pulando.'))
+                continue
 
             placa_data = {
                 'subzona': subzona,
-                'descricao': properties.get('descricao_(conteudo)'),
-                'acesso_restrito': False, # Definido como False por padrão
-                'num_embarcacoes_desembarque': properties.get('nº de embarcações/desembarque'),
-                'max_pessoas_catamara': properties.get('nº maximo de pessoas por embarque/catamarã'),
-                'max_pessoas_miudas': properties.get('nº maximo de pessoas para embarque/miúdas'),
-                'atividades_autorizadas': properties.get('atividades permitidas'), # JSONField
+                'nome_placa': properties.get('nome_placa'),
+                'descricao': properties.get('descricao'),
+                'localidade_x': properties.get('localidade_x'),
+                'acesso_restrito': properties.get('acesso_restrito', False), # Default False
+                'num_embarcacoes_desembarque': properties.get('num_embarcacoes_desembarque'),
+                'max_pessoas_catamara': properties.get('max_pessoas_catamara'),
+                'max_pessoas_miudas': properties.get('max_pessoas_miudas'),
+                'atividades_autorizadas': properties.get('atividades_autorizadas'),
                 'latitude': latitude,
                 'longitude': longitude,
             }
@@ -63,12 +81,12 @@ class Command(BaseCommand):
                     defaults=placa_data
                 )
                 if created:
-                    self.stdout.write(self.style.SUCCESS(f'Placa "{qr_code_obj.code}" criada.'))
+                    self.stdout.write(self.style.SUCCESS(f'Placa "{placa.nome_placa}" criada com QR Code: {qr_code_obj.code}'))
                 else:
-                    self.stdout.write(self.style.SUCCESS(f'Placa "{qr_code_obj.code}" atualizada.'))
+                    self.stdout.write(self.style.SUCCESS(f'Placa "{placa.nome_placa}" atualizada com QR Code: {qr_code_obj.code}'))
 
                 # Processar atividades
-                atividades_str = properties.get('atividades permitidas')
+                atividades_str = properties.get('atividades_autorizadas')
                 if atividades_str:
                     # Limpar atividades existentes para evitar duplicatas em atualizações
                     PlacaAtividade.objects.filter(placa=placa).delete()
@@ -81,6 +99,6 @@ class Command(BaseCommand):
                         PlacaAtividade.objects.create(placa=placa, atividade=atividade)
 
             except Exception as e:
-                self.stderr.write(self.style.ERROR(f'Erro ao processar placa "{qr_code_str}": {e}'))
+                self.stderr.write(self.style.ERROR(f'Erro ao processar placa "{properties.get("nome_placa", "N/A")}": {e}'))
 
         self.stdout.write(self.style.SUCCESS('Importação de placas e atividades concluída.'))
