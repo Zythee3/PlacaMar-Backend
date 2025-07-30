@@ -1,15 +1,22 @@
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
-from .models import Usuario, Secretaria
-
-@admin.register(Secretaria)
-class SecretariaAdmin(admin.ModelAdmin):
-    list_display = ('nome', 'regiao')
+from .models import Usuario
+from .forms import UsuarioAdminForm, UsuarioAdminCreationForm
 
 @admin.register(Usuario)
 class UsuarioAdmin(UserAdmin):
+    form = UsuarioAdminForm
+    add_form = UsuarioAdminCreationForm
     model = Usuario
-    list_display = ('username', 'email', 'is_secretaria', 'secretaria', 'is_staff', 'is_active')
+    list_display = ('username', 'email', 'tipo_perfil', 'is_staff', 'is_active', 'idade', 'pais_origem', 'estado_origem', 'cidade_origem', 'sexo')
     fieldsets = UserAdmin.fieldsets + (
-        (None, {'fields': ('is_secretaria', 'secretaria')}),
+        ('Informações Adicionais', {'fields': ('tipo_perfil', 'idade', 'pais_origem', 'estado_origem', 'cidade_origem', 'sexo')}),
     )
+    add_fieldsets = UserAdmin.add_fieldsets + (
+        (None, {'fields': ('tipo_perfil', 'idade', 'pais_origem', 'estado_origem', 'cidade_origem', 'sexo')}),
+    )
+
+    class Media:
+        js = (
+            'admin/js/usuario_admin_dynamic_fields.js',
+        )

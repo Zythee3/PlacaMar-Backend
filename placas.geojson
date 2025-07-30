@@ -6,18 +6,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.06540524853735,
-          -8.672915796625139
+          -35.0969013012922,
+          -8.75937768963143
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.1 Piscina Aver o mar - Banhista",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "nº": 1,
+        "coordenadas utm": "269347.00 E, 9031171.00 S",
+        "localidade_x": "Forte de Tamandaré - Banhista",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque, Mergulho",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.15. Forte de Tamandaré - Banhista",
+        "descricao_(conteudo)": "Banhistas compartilhada com pesca artesanal; Turismo Náutico de Catamarã e Embarcações miúdas; Turístico de Base Comunitária (TBC); Mergulho Livre; Estacionamento de Embarcação",
+        "nº de embarcações/desembarque": 5,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
       }
     },
     {
@@ -25,18 +29,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.08796204426231,
-          -8.722402613425487
+          -35.0927443656448,
+          -8.75589663870391
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.2 Campas/Divisa Carneiros – Embarque/Desembarque",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "nº": 2,
+        "coordenadas utm": "269726.00 E, 9031531.00 S",
+        "localidade_x": "Pontal Maceió - Marina 3",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Estacionamento, Embarque/Desembarque, Mergulho",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.13. Marina 3",
+        "descricao_(conteudo)": "Turístico de Base Comunitária (TBC) Pesca e Jangadas turísticas; APONTAMENTO/ABICAGEM; Mergulho Livre",
+        "nº de embarcações/desembarque": 6,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
       }
     },
     {
@@ -44,18 +52,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.08783691007638,
-          -8.723159527595229
+          -35.0908816205397,
+          -8.75235368547245
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.3 Campas/hotel - Norte - Banhistas",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "nº": 3,
+        "coordenadas utm": "269912.37 E, 9031876.67 S",
+        "localidade_x": "Quiosques Tamandaré / Turismo de Base Comunitária (TBC)",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 1.1.11 Quiosques Tamandaré 2 - Banhista/ A.S. 1.1.12. Turismo de Base Comunitária (TBC)",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Turismo Náutico E/D",
+        "nº de embarcações/desembarque": 5,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 9
       }
     },
     {
@@ -63,94 +75,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.08939052918979,
-          -8.727368050534505
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.4 Campas/hotel – Sul - Banhistas",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08711094898801,
-          -8.738674211933159
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S.1.1.5. Amendoeira - Embarque/desembarque",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08667309824186,
-          -8.742122175364095
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.6. Marina 1 Igrejinha - Apoitamento/abicagem",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08639131861116,
-          -8.744702251561396
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.7. Marina 2 Igrejinha - Apoitamento /abicagem",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08905405361428,
+          -35.0890540536143,
           -8.75045437653153
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.8. Jangadeiros - Embarque/desembarque",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "nº": 4,
+        "coordenadas utm": "270141.87 E, 9032140.38 S",
+        "localidade_x": "Jangadeiros/ Praia sem Barreiras",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque, Mergulho",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.8. Jangadeiros - Embarque/Desembarque",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Mergulho TBC",
+        "nº de embarcações/desembarque": 3,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
       }
     },
     {
@@ -158,18 +98,689 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.08956126348416,
-          -8.751043430227877
+          -35.0872705562988,
+          -8.74841033155694
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.9 Quiosques Tamandaré 1 - Banhista",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "nº": 5,
+        "coordenadas utm": "270367.00 E, 9032324.00 S",
+        "localidade_x": "Tamandaré Pesca 1",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Estacionamento - Pesca Artesanal",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 3.6.1. Tamandaré Pesca 1 - Estacionamento",
+        "descricao_(conteudo)": "Piscinas do VAU/ Estacionamento e Apoio à Pesca Artesanal",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0863913186112,
+          -8.7447022515614
+        ]
+      },
+      "properties": {
+        "nº": 6,
+        "coordenadas utm": "270421.00 E, 9032723.00 S",
+        "localidade_x": "Marina 2 - Igrejinha",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Embarque/Desembarque, Mergulho",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.7. Marina 2 Igrejinha - Apontamento /Abicagem",
+        "descricao_(conteudo)": "Turismo Náutico E/D; Pesca Artesanal; Mergulho TBC",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0866730982419,
+          -8.74212217536409
+        ]
+      },
+      "properties": {
+        "nº": 7,
+        "coordenadas utm": "270384.06 E, 9033007.26 S",
+        "localidade_x": "Marina 1 - Igrejinha",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.6. Marina 1 Igrejinha - Apontamento/Abicagem",
+        "descricao_(conteudo)": "Turismo Náutico E/D; Pesca Artesanal",
+        "nº de embarcações/desembarque": 3,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.087110948988,
+          -8.73867421193316
+        ]
+      },
+      "properties": {
+        "nº": 8,
+        "coordenadas utm": "270364.00 E, 9033403.00 S",
+        "localidade_x": "Amendoeira",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S.1.1.5. Amendoeira -  Embarque/Desembarque",
+        "descricao_(conteudo)": "Turismo Náutico E/D; Pesca Artesanal",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0886053157677,
+          -8.73455619922015
+        ]
+      },
+      "properties": {
+        "nº": 9,
+        "coordenadas utm": "270178.04 E, 9033817.65 S",
+        "localidade_x": "Banana Boat - Quiosque do Fusca",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Embarque/Desembarque, Esportes Náuticos",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.2.5 Banana Boat – Quiosque do Fusca ",
+        "descricao_(conteudo)": "Turismo Náutico E/D; Pesca Artesanal; Esportes Náuticos de lazer rebocada ( Bananaboat e Discoboat)\n",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0893905291898,
+          -8.7273680505345
+        ]
+      },
+      "properties": {
+        "nº": 10,
+        "coordenadas utm": "270084.43 E, 9034685.52 S",
+        "localidade_x": "Campas / Hotel Sul",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Mergulho",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.1.4 Campas/ hotel Sul - Banhistas",
+        "descricao_(conteudo)": "Banhistas compartilhada com pesca artesanal; Mergulho TBC",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0878369100764,
+          -8.72315952759523
+        ]
+      },
+      "properties": {
+        "nº": 11,
+        "coordenadas utm": "270196.91 E, 9035064.79 S",
+        "localidade_x": "Campas Norte / Divisa Carneiros",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque, Mergulho",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 1.1.3 Campas/hotel - Norte  (DIVISA CARNEIROS) ",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal;Turismo Náutico E/D; Mergulho TBC",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.189359,
+          -8.408161
+        ]
+      },
+      "properties": {
+        "nº": 12,
+        "coordenadas utm": "270582.00 E, 9035925.00 S",
+        "localidade_x": "APA Guadalupe",
+        "zona": "Área de Proteção Ambiental",
+        "atividades permitidas": "Proteção ambiental e biodiversidade",
+        "qtd placas": 1,
+        "nome_placa": "APAG GUADALUPE - ZATAN",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.187048,
+          -8.405502
+        ]
+      },
+      "properties": {
+        "nº": 13,
+        "coordenadas utm": "270786.31 E, 9036217.66 S",
+        "localidade_x": "APA Guadalupe",
+        "zona": "Área de Proteção Ambiental",
+        "atividades permitidas": "Proteção ambiental e biodiversidade",
+        "qtd placas": 1,
+        "nome_placa": "APAG GUADALUPE - ZATAN",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.183938,
+          -8.402844
+        ]
+      },
+      "properties": {
+        "nº": 14,
+        "coordenadas utm": "271107.22 E, 9036510.79 S",
+        "localidade_x": "APA Guadalupe",
+        "zona": "Área de Proteção Ambiental",
+        "atividades permitidas": "Proteção ambiental e biodiversidade",
+        "qtd placas": 1,
+        "nome_placa": "APAG GUADALUPE - ZATAN",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0790494188062,
+          -8.701979113992
+        ]
+      },
+      "properties": {
+        "nº": 15,
+        "coordenadas utm": "271214.00 E, 9037267.00 S",
+        "localidade_x": "Pontal de Carneiros ",
+        "zona": "Zona Estuarina,  Santuário do Mero e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Brinquedos Náuticos, Embarque/Desembarque",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 2.4.12. / A.S. 2.4.11. / A.S. 2.4.10. Pontal de Carneiros",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Brinquedos Náuticos não motorizados  (Caiaque e Stand up paddle); Turismo Náutico E/D",
+        "nº de embarcações/desembarque": 7,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0846232181763,
+          -8.6975470135438
+        ]
+      },
+      "properties": {
+        "nº": 16,
+        "coordenadas utm": "270684.17 E, 9037670.72 S",
+        "localidade_x": "Restaurante 1",
+        "zona": "Zona Estuarina, Santuário do Mero e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Brinquedos Náuticos, Embarque/Desembarque",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 2.4.9. / A.S. 2.4.8 / A.S. 2.4.7. Restaurante 1",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Turismo Náutico E/D",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0910847885242,
+          -8.69342833015032
+        ]
+      },
+      "properties": {
+        "nº": 17,
+        "coordenadas utm": "270308.34 E, 9037932.64 S",
+        "localidade_x": "Igrejinha Carneiros",
+        "zona": "Zona Estuarina, Santuário do Mero e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 2.4.4. - A.S. 2.4.5. - A.S. 2.4.6. Igrejinha - Banhistas 1-2; Embarque/Desembarque",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal;Turismo Náutico E/D; Mergulho TBC",
+        "nº de embarcações/desembarque": 7,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0962821886838,
+          -8.68956087853148
+        ]
+      },
+      "properties": {
+        "nº": 18,
+        "coordenadas utm": "269379.07 E, 9038769.81 S",
+        "localidade_x": "Prainha Carneiros",
+        "zona": "Zona Estuarina, Santuário do Mero e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Brinquedos Náuticos, Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.4.3. -  A.S. 2.4.2. - A.S. 2.4.1. Embarcação turismo; Banhista; Brinquedos Náuticos",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Brinquedos Náuticos não motorizados (Caiaque e Stand up paddle);Turismo Náutico E/D",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.206794,
+          -8.380691
+        ]
+      },
+      "properties": {
+        "nº": 19,
+        "coordenadas utm": "268741.91 E, 9038887.55 S",
+        "localidade_x": "APA Guadalupe",
+        "zona": "Área de Proteção Ambiental",
+        "atividades permitidas": "Proteção ambiental e biodiversidade",
+        "qtd placas": 1,
+        "nome_placa": "APAG GUADALUPE - ZATAN",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1045695085796,
+          -8.69621913846214
+        ]
+      },
+      "properties": {
+        "nº": 20,
+        "coordenadas utm": "268451.00 E, 9038107.00 S",
+        "localidade_x": "Mangueira",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": "Pesca Artesanal, Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.1.1 Mangueira - E/D Turismo de Base Comunitária e Pesca Artesanal",
+        "descricao_(conteudo)": "Pesca Artesanal;Turismo Náutico E/D; Mergulho TBC",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1048099466107,
+          -8.6991053707923
+        ]
+      },
+      "properties": {
+        "nº": 21,
+        "coordenadas utm": "268380.36 E, 9037769.80 S",
+        "localidade_x": "Amaragi",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": "Embarque/Desembarque, Fundeio",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.1.2 Amaragi - E/D Turismo de Base Comunitária e Pesca Artesanal",
+        "descricao_(conteudo)": "Pesca Artesanal;Turismo Náutico E/D; Mergulho TBC",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1122993191466,
+          -8.68394588681212
+        ]
+      },
+      "properties": {
+        "nº": 22,
+        "coordenadas utm": "267619.00 E, 9039189.00 S",
+        "localidade_x": "Nova Holanda",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": " Zona de Preservaçao da Vida Estuarina (ZPVE) Preservação total",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.2.2 Nova Holanda - ZPVE do Santuario do Mero",
+        "descricao_(conteudo)": "Proíbido atividade Náutica (Turismo, Lazer, Transporte, Pesca) exceto ações de pesquisa",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.1020166388947,
+          -8.68446765733611
+        ]
+      },
+      "properties": {
+        "nº": 23,
+        "coordenadas utm": "268634.44 E, 9039555.64 S",
+        "localidade_x": "Píer Mariassú",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": "Pesca Artesanal, Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.4.21 Píer Mariassú",
+        "descricao_(conteudo)": "Turismo Náutico E/D; Pesca Artesanal",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0954596032118,
+          -8.6849599215092
+        ]
+      },
+      "properties": {
+        "nº": 24,
+        "coordenadas utm": "269448.04 E, 9039346.18 S",
+        "localidade_x": "Píer Guadalupe",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": "Pesca Artesanal, Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 2.4.20 Pier Guadalupe - Embarque/ Desembarque",
+        "descricao_(conteudo)": "Área pública destinada ao Embarque e Desembarque de passageiros, compartilhada a Pesca Artesanal",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0927282697102,
+          -8.68589444632663
+        ]
+      },
+      "properties": {
+        "nº": 25,
+        "coordenadas utm": "269861.00 E, 9039251.00 S",
+        "localidade_x": "Área Seletiva Guadalupe",
+        "zona": "Zona Estuarina Sant. do Mero",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque, Estacionamento",
+        "qtd placas": 2,
+        "nome_placa": "A.S. 2.4.13. - A.S. 2.4.14 -  A.S. 2.4.15 - A.S. 2.4.16 - A.S. 2.4.17 - A.S. 2.4.18. Argila",
+        "descricao_(conteudo)": "Turismo Náutico E/D;  Pesca Artesanal TBC",
+        "nº de embarcações/desembarque": 6,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.192853,
+          -8.378933
+        ]
+      },
+      "properties": {
+        "nº": 26,
+        "coordenadas utm": "270228.80 E, 9039081.21 S",
+        "localidade_x": "APA Guadalupe",
+        "zona": "Área de Proteção Ambiental",
+        "atividades permitidas": "Proteção ambiental e biodiversidade",
+        "qtd placas": 1,
+        "nome_placa": "APAG GUADALUPE - ZATAN",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0793102577763,
+          -8.68853064280536
+        ]
+      },
+      "properties": {
+        "nº": 27,
+        "coordenadas utm": "270507.48 E, 9038961.68 S",
+        "localidade_x": "Tejucussú",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Proibição de retirada/mobilização de sedimento",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.2.4 TEJUCUSSÚ - Proteção do Banco de Areia",
+        "descricao_(conteudo)": "Proibida a retirada e mobilização de sendimento, abertura de cana, comercialização de alimentos  e bebidas e festa náutica",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0819303167079,
+          -8.67697599429697
+        ]
+      },
+      "properties": {
+        "nº": 28,
+        "coordenadas utm": "270693.00 E, 9039733.00 S",
+        "localidade_x": "Proteção Terraços Marinhos",
+        "zona": "Zona Marítima",
+        "atividades permitidas": "Proibição de construções e barracas",
+        "qtd placas": 3,
+        "nome_placa": "A.S. 3.2.1 Guadalupe - Proteção dos Terraços Marinhos e Falésias",
+        "descricao_(conteudo)": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais destinada à proteção dos terraços marinhos e falésias - proibida construções visando atividade náutica e barracas com fins gastronômicos",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0711021503801,
+          -8.67081364863798
+        ]
+      },
+      "properties": {
+        "nº": 29,
+        "coordenadas utm": "272058.32 E, 9040903.06 S",
+        "localidade_x": "Gamela / Aver o Mar",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.2.2  - A.S. 1.2.1. Gamela/A Ver o Mar -  E/D e Banhista",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal; Turismo Náutico E/D",
+        "nº de embarcações/desembarque": 3,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0706728188769,
+          -8.66933598658932
+        ]
+      },
+      "properties": {
+        "nº": 30,
+        "coordenadas utm": "272099.69 E, 9041103.57 S",
+        "localidade_x": "Área Seletiva - Estacionamento Barcos",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 1.2.3 - A.S. 3.1.1 Gamela A Ver o Mar – E/D embarcação de turismo; barcos de pesca",
+        "descricao_(conteudo)": " E/D embarcações de turismo náutico; Estacionamento barcos de pesca; Catamarã de 30 m - 50 m",
+        "nº de embarcações/desembarque": 4,
+        "nº maximo de pessoas por embarque/catamarã": 80,
+        "nº maximo de pessoas para embarque/miúdas": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.102544,
+          -8.280183
+        ]
+      },
+      "properties": {
+        "nº": 31,
+        "coordenadas utm": "277223.60 E, 9047601.21 S",
+        "localidade_x": "Ilha de Santo Aleixo - Praia",
+        "zona": "Zona Marítima Subzona Plataforma Continental",
+        "atividades permitidas": "Banhistas",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 4.1 ILHA DE SANTO ALEIXO -Praia",
+        "descricao_(conteudo)": "Banhistas compartilhada com pesca artesanal; Permitido 364 Usuários em simultâneo",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10134,
+          -8.281597
+        ]
+      },
+      "properties": {
+        "nº": 32,
+        "coordenadas utm": "277339.67 E, 9047440.30 S",
+        "localidade_x": "Ilha de Santo Aleixo - Piscina",
+        "zona": "Zona Marítima Subzona Plataforma Continental",
+        "atividades permitidas": "Banhistas",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 4.2 ILHA DE SANTO ALEIXO- Piscina",
+        "descricao_(conteudo)": "Conservação da Biodiversidade Marinha; Proteção aos Ambientes Recifais  (309 usuários por dia)",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.102594,
+          -8.280641
+        ]
+      },
+      "properties": {
+        "nº": 33,
+        "coordenadas utm": "277218.24 E, 9047549.53 S",
+        "localidade_x": "Ilha de Santo Aleixo - Fundeio",
+        "zona": "Zona Marítima Subzona Plataforma Continental",
+        "atividades permitidas": "Fundeio de até 17 embarcações",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 4.3 Ilha de Santo Aleixo - Fundeio de embarcações",
+        "descricao_(conteudo)": "Conservação da Biodiversidade Marinha; Proteção aos Ambientes Recifais",
+        "nº de embarcações/desembarque": 17,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.102317,
+          -8.281417
+        ]
+      },
+      "properties": {
+        "nº": 34,
+        "coordenadas utm": "277245.51 E, 9047463.47 S",
+        "localidade_x": "Ilha de Santo Aleixo - E/D PLANO DE MANEJO (ESTUDO DE CARGA/SUPORTE E OPERACIONAL DE ATIVIDADES TURISMO NÁUTICO SUSTENTÁVEL",
+        "zona": "Zona Marítima Subzona Plataforma Continental",
+        "atividades permitidas": "Embarque/Desembarque",
+        "qtd placas": 1,
+        "nome_placa": "A.S. 4.4 Ilha de Santo Aleixo - Embarque/Desembarque",
+        "descricao_(conteudo)": "Conservação da Biodiversidade Marinha; Proteção aos Ambientes Recifais ; E/D embarcações de turismo náutico; pesca artesanal",
+        "nº de embarcações/desembarque": 2,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
       }
     },
     {
@@ -178,17 +789,21 @@
         "type": "Point",
         "coordinates": [
           -35.0899606150802,
-          -8.751198134725282
+          -8.75119813472528
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
+        "nº": "1A",
+        "coordenadas utm": "270051.29 E, 9032053.81 S",
+        "localidade_x": "Projeto Praia sem Barreiras",
+        "zona": "Zona Marítima e Ambiente Praial",
+        "atividades permitidas": "Acesso ao lazer de pessoas com deficiência e/ou mobilidade reduzida ",
+        "qtd placas": 1,
         "nome_placa": "A.S. 1.1.10 Projeto Praia sem Barreiras",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "descricao_(conteudo)": "TAMANDARÉ -  Área de acesso ao lazer de pessoas com deficiência e/ou mobilidade reduzida",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
       }
     },
     {
@@ -196,18 +811,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.09088162053975,
-          -8.75235368547245
+          -35.1146873259024,
+          -8.68023117458557
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.11 Quiosques Tamandaré 2 - Banhista",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "nº": "2A",
+        "coordenadas utm": "267315.03 E, 9039852.86 S",
+        "localidade_x": "2A. Praia de Pedra",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "atividades permitidas": " Apoio a pesca artesanal",
+        "qtd placas": 1,
+        "nome_placa": "Placa 2A - Praia de Pedra",
+        "descricao_(conteudo)": "PESCA ARTESANAL",
+        "nº de embarcações/desembarque": 0,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
       }
     },
     {
@@ -215,151 +834,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.09134650051984,
-          -8.752937273812712
+          -35.0941970204122,
+          -8.75756804422405
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.12. Turismo de base comunitária Quiosques Tamandaré - Embarque/desembarque",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09274436564484,
-          -8.75589663870391
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.13. Marina 3 -Pontal Maceió - Apoitamento/abicagem",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09625034673888,
-          -8.75918493131664
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.14. Forte de Tamandaré - Embarque/ desembarque",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09690130129224,
-          -8.759377689631432
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.15. Forte de Tamandaré - Banhista",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08094034969417,
-          -8.742484485505601
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.16. Piscina - Pirambu do Norte – Banhista",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.0838134926591,
-          -8.745824925566293
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.17. Piscina – da Val 4 - Banhista",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08372157259763,
-          -8.747024350109161
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.18. Piscina – da Val 3/Matafome- Atividade de mergulho livre",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08513484244048,
-          -8.749254859265012
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.19. Piscina – da Val 2/Prainha- Banhista",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "nº": "1B",
+        "coordenadas utm": "269618.20 E, 9031309.36 S",
+        "localidade_x": "1B. Piscina do Forte",
+        "zona": "Zona Marítima",
+        "atividades permitidas": " Atividade de mergulho livre - Banhista - Atividade de Mergulho - Mergulho Livre e Apneia",
+        "qtd placas": 2,
+        "nome_placa": "Placa 1B: A.S. 1.1.24 - A.S. 1.1.23 - A.S. 1.1.22 - A.S. 1.1.21. Piscina do Forte 2/ Piscina do Forte 1/ Três Cabeços/ Piscina Pirambu do Sul",
+        "descricao_(conteudo)": "Banhistas; Pesca Artesanal;Turismo Náutico E/D; Mergulho APNEIA ; ",
+        "nº de embarcações/desembarque": 12,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
       }
     },
     {
@@ -372,13 +862,17 @@
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.20. Piscina - da Val 1 – Banhista",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "nº": "2B",
+        "coordenadas utm": "270289.85 E, 9032235.85 S",
+        "localidade_x": "Piscina da Vau 1 e 2",
+        "zona": "Zona Marítima",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque Fundeio na borda/ compartilhada com Pesca Artesanal",
+        "qtd placas": 1,
+        "nome_placa": "Placa 2B: A.S. 1.1.20 - A.S. 1.1.19. Piscina da VaU 1 / Piscina – da VaU 2/ Prainha, banhistas",
+        "descricao_(conteudo)": "PISCINAS NATURAIS - fundeio das embarcações deverá ser realizado na borda; permitido 93 usuários em simultâneo",
+        "nº de embarcações/desembarque": 11,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
       }
     },
     {
@@ -386,132 +880,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.0874180168235,
-          -8.758075078647616
+          -35.0837215725976,
+          -8.74702435010916
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.21. Piscina - Pirambu do Sul - Atividade de mergulho livre",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.089258284488,
-          -8.75909974082005
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.22. Três Cabeços - Atividade de mergulho livre",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08906673831002,
-          -8.76077571470832
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.23. Piscina do Forte 1 – Banhista",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09178140888824,
-          -8.761133890092204
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.1.24. Piscina do Forte 2 – Atividade de mergulho livre",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09419702041221,
-          -8.757568044224046
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 1B",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08805365975832,
-          -8.749231496629742
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 2B",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.0866344130329,
-          -8.745641622003737
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 3B",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "nº": "3B",
+        "coordenadas utm": "270443.15 E, 9032633.54 S",
+        "localidade_x": "Piscina da VaU 3 e  4",
+        "zona": "Zona Marítima e Piscina Naturais",
+        "atividades permitidas": "Banhistas, Embarque/Desembarque Fundeio na borda/ compartilhada com Pesca Artesanal",
+        "qtd placas": 1,
+        "nome_placa": "Placa 3B: A.S. 1.1.18 - A.S. 1.1.17. Piscina – da VaU 3/ Matafome- Atividade de mergulho livre/ Piscina – da Val 4 - Banhista",
+        "descricao_(conteudo)": "PISCINAS NATURAIS - fundeio das embarcações deverá ser realizado na borda; permitido 110 usuários em simultâneos",
+        "nº de embarcações/desembarque": 14,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
       }
     },
     {
@@ -520,17 +904,21 @@
         "type": "Point",
         "coordinates": [
           -35.0871448221489,
-          -8.742664828707706
+          -8.74266482870771
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "4B",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "nº": "4B",
+        "coordenadas utm": "270385.69 E, 9032962.58 S",
+        "localidade_x": "Pirambu do Norte - Topless",
+        "zona": "Zona Marítima e Ambiente Praial e Piscina Naturais",
+        "atividades permitidas": "Visitação Turística, Embarque/Desembarque Fundeio na borda/ compartilhada com Pesca Artesanal",
+        "qtd placas": 1,
+        "nome_placa": "Placa 4B, A.S. 1.1.16 Área Seletiva Visitação Turística Topless/ Pirambu do Norte",
+        "descricao_(conteudo)": "PISCINAS NATURAIS - Visitação turística compartilhada com pesca artesanal; fundeio das embarcações deverá ser realizado na borda; permitido 25 usuários simultâneos",
+        "nº de embarcações/desembarque": 4,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 0
       }
     },
     {
@@ -538,1462 +926,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -35.07139939490308,
-          -8.670109415453286
+          -35.0713993949031,
+          -8.67010941545329
         ]
       },
       "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 5B",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.07110215038011,
-          -8.670813648637981
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "1.2.1 Gamela/A Ver o Mar - Banhista",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.07117027942801,
-          -8.671472369918202
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.2.2 Gamela/A Ver o Mar – Embarque/desembarque",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.07067281887688,
-          -8.66933598658932
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.2.3 Gamela/A Ver o Mar – Embarque/desembarque de embarcação de turismo",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.07931025777627,
-          -8.68853064280536
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.2.4 Tejucussú Proteção do Banco de Areia",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08860531576772,
-          -8.734556199220151
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.2.5 Banana Boat – Quiosque do fusca – Embarque/desembarque",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08763982251233,
-          -8.731900218270644
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 1.2.6 Banana Boat - Campas",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.10456950857963,
-          -8.69621913846214
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.1.1 Mangueira - E/D Turismo de Base Comunitária e Pesca Artesanal",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.10480994661071,
-          -8.6991053707923
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.1.2 Amaragi - E/D  Turismo de Base Comunitária e Pesca Artesanal",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.10422178141528,
-          -8.70897176715346
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "2.1.3 Porto da Folha",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09661079127817,
-          -8.70995073612555
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.1.4 Toca de Baixo - Zona de Preservaçao da Vida Estuarina (ZPVE) do Santuario do Mero",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.1222890459909,
-          -8.671941148174735
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.2.1 Pedra do Pipiri/Margaída - Zona de Preservaçao da Vida Estuarina (ZPVE) do Santuario do Mero",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.11229931914659,
-          -8.683945886812124
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.2.2 Nova Holanda - Zona de Preservaçao da Vida Estuarina (ZPVE) do Santuario do Mero",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09628218868382,
-          -8.689560878531477
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.1. Prainha - Brinquedos Náuticos",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09592098858104,
-          -8.689791441403102
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.2 Prainha –Banhistas",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09538378355049,
-          -8.689842737785757
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.3. Prainha - E/D Embarcação de Turismo",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09108478852424,
-          -8.693428330150322
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.4. Igrejinha - Banhistas 1",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08850950918973,
-          -8.694602553234922
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.5 Igrejinha - E/D Embarcação de Turismo",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08650382411549,
-          -8.696281709976175
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.6 Igrejinha - Banhistas 2",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08462321817628,
-          -8.697547013543796
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.7. Restaurante 1 – Banhistas",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08301797555782,
-          -8.698710003515655
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.8 Restaurante 1 –E/D Embarcação de Turismo",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08238358066925,
-          -8.699416613944631
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.9. Restaurante 1 – Brinquedos Náuticos",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08048920207994,
-          -8.701439385480947
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.10. Pontal de Carneiros - E/D Embarcação de Turismo",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.07965789065926,
-          -8.701685989081314
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.11. Pontal de Carneiros – Brinquedos Náuticos",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.07904941880619,
-          -8.701979113992
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.12. Pontal de Carneiros – Banhistas",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09272826971021,
-          -8.685894446326628
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.13 Argila – Embarque / Desembarque de embarcação de turismo do tipo catamarã",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09241291660068,
-          -8.685973549995484
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.14 Argila - Banhista 1",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09208127810281,
-          -8.686024067686843
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.15 Argila – Embarque / Desembarque de embarcação de turismo miúda",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09189690653511,
-          -8.686075974160943
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.16 Argila – Fundeio de embarcações exclusiva para trabalhadores locais",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09169957520228,
-          -8.68611347686843
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.17 Argila– Embarque / Desembarque de embarcação de turismo miúda",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09141079328106,
-          -8.686201727586205
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.18 Argila - Banhista 2",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09112310213595,
-          -8.686325783842351
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.19 Argila– Embarque / Desembarque de embarcação do tipo catamarã",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09545960321179,
-          -8.684959921509195
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Pier Guadalupe",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.1020166388947,
-          -8.684467657336105
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 2.4.21 Píer Mariassú",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.07119153063149,
-          -8.669354521941754
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 3.1.1 Aver o Mar - Estacionamento de barcos de pesca",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08193031670787,
-          -8.676975994296972
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 3.2.1 Guadalupe - Proteção dos Terraços Marinhos e Falésias",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08727055629883,
-          -8.748410331556943
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 3.6.1. Tamandaré Pesca 1 - Estacionamento",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08923452743181,
-          -8.750128956386774
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 3.6.2. Jangadeiros Tamandaré 1 – Estacionamento",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09320367324141,
-          -8.755695852610623
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 3.6.3. Jangadeiros Tamandaré 2 - Estacionamento",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09595486269931,
-          -8.758794610142772
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "A.S. 3.6.4. Tamandaré Pesca 2 - Estacionamento",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09666629749,
-          -8.758801795634271
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 01",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09320451516916,
-          -8.755566790385895
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 02",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09149711493925,
-          -8.752457635584353
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 03",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08940314378756,
-          -8.750082795062365
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 04",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08734048644631,
-          -8.748430919878125
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 05",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08682976803746,
-          -8.744826994422656
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 06",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08715164302508,
-          -8.742258015732318
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 07",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08731342844582,
-          -8.73867750076564
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 08",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.0889824941865,
-          -8.734925971773386
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 09",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08979284167584,
-          -8.727075268290791
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 10",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08875624502168,
-          -8.723655024992324
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 11",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.0852061952472,
-          -8.715891560469865
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 12",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08333823633782,
-          -8.713262280450524
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 13",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08040732476809,
-          -8.710629765250577
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 14",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.0793974405003,
-          -8.703792382493873
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 15",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08419217868777,
-          -8.70012322690996
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 16",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08759486547054,
-          -8.697736233384388
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 17",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09599230663765,
-          -8.690124084536611
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 18",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.10178213436851,
-          -8.689025535209964
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 19",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.10445591205051,
-          -8.69606148976007
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 20",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.10511797132154,
-          -8.699113136919642
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 21",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.11195933352088,
-          -8.686239374229277
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 22",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.1027204998602,
-          -8.682982044866053
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 23",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09533652291016,
-          -8.684911940950817
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 24",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09158951282154,
-          -8.685791268906081
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 25",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08826410522005,
-          -8.687346214103679
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 26",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08573558694233,
-          -8.688444800530926
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 27",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.08400736724838,
-          -8.681475767930252
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 28",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.07154944400381,
-          -8.670967360340063
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 29",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.0711670962948,
-          -8.66916152076481
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 30",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.02430686026583,
-          -8.61067196778844
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 31",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.0241123255593,
-          -8.61166737581692
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 32",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.02346110062023,
-          -8.612186076813972
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 33",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.02143797685288,
-          -8.612639677532242
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 34",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.0902252532784,
-          -8.750864685491836
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 1A",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.11468732590242,
-          -8.680231174585574
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 2A",
-        "cor": "#FF0000",
-        "descricao": "fffff"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -35.09060208697581,
-          -8.68629385675966
-        ]
-      },
-      "properties": {
-        "subzona": "Z1",
-        "localidade": "Localidade X",
-        "embarcacoes": 5,
-        "usuarios": 10,
-        "nome_placa": "Placa 25B",
-        "cor": "#FF0000",
-        "descricao": "fffff"
+        "nº": "5B",
+        "coordenadas utm": "272074.86 E, 9040998.69 S  ",
+        "localidade_x": "Piscina Aver o Mar",
+        "zona": "Zona Marítima e Piscina Naturais",
+        "atividades permitidas": "Banhistas, Mergulho livre, compartilhada com Pesca Artesanal, Embarque/Desembarque Fundeio na Borda",
+        "qtd placas": 1,
+        "nome_placa": "Placa 5B, A.S. 1.1.1 Piscina  A Ver o Mar – Banhista",
+        "descricao_(conteudo)": "PISCINAS NATURAIS -  Banhistas, Mergulho Livre compartilhada com Pesca Artesanal; fundeio das embarcações deverá ser realizado na borda",
+        "nº de embarcações/desembarque": 4,
+        "nº maximo de pessoas por embarque/catamarã": 0,
+        "nº maximo de pessoas para embarque/miúdas": 33
       }
     }
   ]

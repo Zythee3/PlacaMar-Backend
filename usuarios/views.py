@@ -12,7 +12,6 @@ logger = logging.getLogger(__name__)
 class UsuarioViewSet(viewsets.ReadOnlyModelViewSet):
     """
     ViewSet para listar (GET) usuários. Apenas leitura.
-    Usuários do tipo secretaria veem apenas os usuários vinculados à sua secretaria.
     """
 
     queryset = Usuario.objects.all()
@@ -20,9 +19,6 @@ class UsuarioViewSet(viewsets.ReadOnlyModelViewSet):
     permission_classes = [permissions.IsAuthenticated]
 
     def get_queryset(self):
-        user = self.request.user
-        if user.is_secretaria and user.secretaria:
-            return Usuario.objects.filter(secretaria=user.secretaria)
         return super().get_queryset()
 
 
@@ -51,28 +47,3 @@ class UsuarioCreateView(APIView):
 
         output_serializer = UsuarioSerializer(user)
         return Response(output_serializer.data, status=status.HTTP_201_CREATED)
-
-
-class SecretariaDashboardView(APIView):
-    """
-    Endpoint para dashboard de secretarias.
-    Somente usuários do tipo secretaria autenticados podem acessar.
-    """
-
-    permission_classes = [IsAuthenticated]
-
-    def get(self, request):
-        user = request.user
-
-        if not user.is_secretaria:
-            return Response({"erro": "Acesso negado."}, status=status.HTTP_403_FORBIDDEN)
-
-        if not user.secretaria:
-            return Response({"erro": "Usuário sem secretaria vinculada."}, status=status.HTTP_403_FORBIDDEN)
-
-        # Implementar lógica real para filtrar dados conforme a secretaria do usuário
-        dados_filtrados = {
-            "msg": f"Dados restritos à secretaria {user.secretaria.nome} - região {user.secretaria.regiao}"
-        }
-
-        return Response(dados_filtrados, status=status.HTTP_200_OK)

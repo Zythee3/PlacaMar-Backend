@@ -1,40 +1,38 @@
 from rest_framework import serializers
-from .models import Usuario, Secretaria
+from .models import Usuario
+from api.models import Estado, Cidade
 from django.contrib.auth.password_validation import validate_password
 
-class SecretariaSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Secretaria
-        fields = ['id', 'nome', 'regiao']
-
 class UsuarioSerializer(serializers.ModelSerializer):
-    secretaria = SecretariaSerializer(read_only=True)
-
     class Meta:
         model = Usuario
-        fields = ['id', 'username', 'email', 'is_secretaria', 'secretaria']
+        fields = ['id', 'username', 'email', 'tipo_perfil', 'criado_em']
+        read_only_fields = ['criado_em']
 
 class UsuarioCreateSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True, validators=[validate_password])
-    secretaria_id = serializers.PrimaryKeyRelatedField(
-        queryset=Secretaria.objects.all(),
-        source='secretaria',
-        write_only=True,
-        required=False
-    )
+
+    estado_origem = serializers.PrimaryKeyRelatedField(queryset=Estado.objects.all(), allow_null=True, required=False)
+    cidade_origem = serializers.PrimaryKeyRelatedField(queryset=Cidade.objects.all(), allow_null=True, required=False)
 
     class Meta:
         model = Usuario
-        fields = ['username', 'email', 'password', 'is_secretaria', 'secretaria_id']
+        fields = ['username', 'email', 'password', 'tipo_perfil', 'idade', 'estado_origem', 'pais_origem', 'cidade_origem', 'sexo']
 
     def create(self, validated_data):
-        secretaria = validated_data.pop('secretaria', None)
+        estado_origem_data = validated_data.pop('estado_origem', None)
+        cidade_origem_data = validated_data.pop('cidade_origem', None)
+
         user = Usuario.objects.create_user(
             username=validated_data['username'],
             email=validated_data['email'],
             password=validated_data['password'],
-            is_secretaria=validated_data.get('is_secretaria', False),
-            secretaria=secretaria if secretaria else None  # garante None se for vazio
+            tipo_perfil=validated_data.get('tipo_perfil', 'Turista'),
+            idade=validated_data.get('idade'),
+            pais_origem=validated_data.get('pais_origem'),
+            sexo=validated_data.get('sexo'),
         )
+        user.estado_origem = estado_origem_data
+        user.cidade_origem = cidade_origem_data
+        user.save()
         return user
-

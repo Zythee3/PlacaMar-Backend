@@ -1,0 +1,1582 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.091067,
+          -8.725956
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.4 CAMPAS/HOTEL - SUL - BANHISTAS",
+        "descricao": "Área destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.725956,
+        "longitude": -35.091067,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "f74fb03a-a583-46eb-9a8f-82ab4f0d15f0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0872,
+          -8.738458
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.5. AMENDOEIRA - EMBARQUE/DESEMBARQUE",
+        "descricao": "Área destinada preferencialmente às embarcações de turismo náutico, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.738458,
+        "longitude": -35.0872,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "6518a29a-2fbb-4c3e-9736-0a96f515bf8c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.092933,
+          -8.752531
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.12. TURISMO DE BASE COMUNITÁRIA - QUIOSQUES TAMANDARÉ - EMBARQUE/DESEMBARQUE",
+        "descricao": "Área destinada às embarcações de turismo náutico, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.752531,
+        "longitude": -35.092933,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "7a14a37c-772a-4d7b-b46d-e7e8bcfb878d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.091858,
+          -8.751183
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.11 QUIOSQUES TAMANDARÉ 2 - BANHISTA",
+        "descricao": "Área destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.751183,
+        "longitude": -35.091858,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "01f9bef1-ae82-4345-a786-234e2af96e6b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.091875,
+          -8.750839
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.10 PROJETO PRAIA SEM BARREIRAS",
+        "descricao": "Área destinada ao projeto que integra o programa Turismo Acessível, da Empresa Pernambucana de Turismo (EMPETUR) e tem por objetivo garantir o acesso ao lazer de pessoas com deficiência e/ou mobilidade reduzida.",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.750839,
+        "longitude": -35.091875,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "4aa5a8dd-4d75-49c3-994e-96d3ef1c1e68"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09310278,
+          -8.75556111
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.13. MARINA 3 - PONTAL MACEIÓ - APOITAMENTO/ABICAGEM",
+        "descricao": "Área destinada ao apoitamento e abicagem de embarcações e ao embarque e desembarque de embarcações de turismo náutico.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.75556111,
+        "longitude": -35.09310278,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "183c2ee9-c011-45e3-b68f-090488538c16"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09604444,
+          -8.75899444
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.14. FORTE DE TAMANDARÉ - EMBARQUE/ DESEMBARQUE",
+        "descricao": "Área destinada às embarcações de turismo náutico, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.75899444,
+        "longitude": -35.09604444,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "9d013452-7905-46cd-8240-cc4c8c6675a7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09648889,
+          -8.75916944
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.15. FORTE DE TAMANDARÉ - BANHISTA",
+        "descricao": "Área destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.75916944,
+        "longitude": -35.09648889,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "4f521fe4-16ab-4f23-93e1-cea25321ef2a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08095,
+          -8.74249167
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.16. PISCINA - PIRAMBU DO NORTE - BANHISTA.",
+        "descricao": "Área de banho destinada ao uso turístico empresarial ou de base comunitária e ao uso recreativo, comportando a pesca artesanal, conforme a vocação local. O uso da piscina pelas atividades náuticas está condicionado aos parâmetros de conservação ambiental definidos pela APA de Guadalupe e pela APA Costa dos Corais, incluindo a capacidade de carga. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.74249167,
+        "longitude": -35.08095,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "c0e6c27c-9fae-492f-8d05-388bc9877419"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08378889,
+          -8.74585556
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.17. PISCINA - DA VAL 4 - BANHISTA.",
+        "descricao": "Área de banho destinada ao uso turístico empresarial ou de base comunitária e ao uso recreativo, comportando a pesca artesanal, conforme a vocação local. O uso da piscina pelas atividades náuticas está condicionado aos parâmetros de conservação ambiental definidos pela APA de Guadalupe e pela APA Costa dos Corais, incluindo a capacidade de carga. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.74585556,
+        "longitude": -35.08378889,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "5d1622b9-e8a8-4538-9be3-dc069fb15a17"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.090767,
+          -8.750211
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.8. JANGADEIROS TAMANDARÉ - EMBARQUE/DESEMBARQUE",
+        "descricao": "Área destinada às embarcações de turismo náutico, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.750211,
+        "longitude": -35.090767,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "ee986127-987b-4fcd-ba81-40282aab8baf"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.087039,
+          -8.742092
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.6. MARINA 1 IGREJINHA - APOITAMENTO/ABICAGEM",
+        "descricao": "Área destinada ao apoitamento e abicagem de embarcações.",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.742092,
+        "longitude": -35.087039,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "debcecca-118a-4ee7-96e7-99a98755d4e2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08665,
+          -8.744803
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.7. MARINA 2 IGREJINHA - APOITAMENTO /ABICAGEM",
+        "descricao": "Área destinada ao apoitamento e abicagem de embarcações.",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.744803,
+        "longitude": -35.08665,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "c3f13b4e-344a-49b0-93a9-e3fc08486f27"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.091111,
+          -8.750494
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.9 QUIOSQUES TAMANDARÉ 1 - BANHISTA",
+        "descricao": "Área destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.750494,
+        "longitude": -35.091111,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "d0673a9c-5da2-4cc3-a159-fca74aa8bcb5"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09775833,
+          -8.70968056
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.1.4 TOCA DE BAIXO - ZONA DE PRESERVAÇÃO DA VIDA ESTUARINA (ZPVE) DO SANTUÁRIO DO MERO",
+        "descricao": "Área destinada à conservação estuarina in situ, produção e exportação de biomassa para a pesca local, desenvolvimento de pesquisa e educação ambiental. Proíbe-se atividade náutica (turismo, lazer, transporte e pesca), exceto em situação de pesquisa devidamente aprovada pelas instituições competentes.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.70968056,
+        "longitude": -35.09775833,
+        "subzona": "Subzona Rio Ariquindá",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "35eae62b-d678-4660-9b82-1f7930f81261"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.122797,
+          -8.6719
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.2.1 PEDRA DA MARGAÍDA/PIPIRÍ - ZONA DE PRESERVAÇÃO DA VIDA ESTUARINA (ZPVE) DO SANTUÁRIO DO MERO",
+        "descricao": "Área destinada à conservação estuarina in situ, produção e exportação de biomassa para a pesca local, desenvolvimento de pesquisa e educação ambiental. Proíbe-se atividade náutica (turismo, lazer, transporte e pesca), exceto em situação de pesquisa devidamente aprovada pelas instituições competentes",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.6719,
+        "longitude": -35.122797,
+        "subzona": "Subzona Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "ebf45017-ad3a-40c9-af81-928008ecbf4f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.113183,
+          -8.683519
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.2.2 NOVA HOLANDA- ZONA DE PRESERVAÇÃO DA VIDA ESTUARINA (ZPVE) DO SANTUÁRIO DO MERO",
+        "descricao": "Área destinada à conservação estuarina in situ, produção e exportação de biomassa para a pesca local, desenvolvimento de pesquisa e educação ambiental. Proíbe-se atividade náutica (turismo, lazer, transporte e pesca), exceto em situação de pesquisa devidamente aprovada pelas instituições competentes",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.683519,
+        "longitude": -35.113183,
+        "subzona": "Subzona Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "4690ec43-481a-4ce0-8c09-cd3ca5649ec8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0875,
+          -8.7222
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.2 CAMPAS/DIVISA CARNEIROS - EMBARQUE/DESEMBARQUE",
+        "descricao": "(45m de comprimento, 30m de largura). Delimitada entre as coordenadas geográficas: 8°43'19.92\"S, 35° 5'17.12\"O; 8°43'20.24\"S, 35° 5'15.69\"O; 8°43'21.19\"S, 35° 5'15.98\"O; 8°43'20.84\"S, 35° 5'17.45\"O [Área destinada preferencialmente às embarcações de turismo náutico, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.]",
+        "localidade_x": "CAMPAS/DIVISA CARNEIROS",
+        "acesso_restrito": false,
+        "latitude": -8.7222,
+        "longitude": -35.0875,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "905a0e71-a272-4a40-9eea-fb286318cf8d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0867,
+          -8.7236
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.3 CAMPAS/HOTEL - NORTE - BANHISTAS",
+        "descricao": "(300 m de comprimento, 80 m de largura). Delimitada entre as coordenadas geográficas: 8°43'20.88\"S, 35° 5'17.43\"O; 8°43'21.51\"S, 35° 5'14.78\"O; 8°43'30.61\"S, 35° 5'18.04\"O; 8°43'30.10\"S, 35° 5'20.61\"O [Área destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.]",
+        "localidade_x": "Campas Norte / Divisa Carneiros",
+        "acesso_restrito": false,
+        "latitude": -8.7236,
+        "longitude": -35.0867,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "7f8b09bd-23b6-46ab-acb6-80e401f5e8b2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08091111,
+          -8.742625
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.18. PISCINA - DA VAL 3/MATAFOME- ATIVIDADE DE MERGULHO.",
+        "descricao": "Área preferencialmente para mergulho livre, podendo comportar banhistas nas ocasiões de baixa-mar de sizígia e comportando a pesca artesanal, conforme a vocação local. O uso da piscina pelas atividades náuticas está condicionado aos parâmetros de conservação ambiental definidos pela APA de Guadalupe e pela APA Costa dos Corais, incluindo a capacidade de carga. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.742625,
+        "longitude": -35.08091111,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "ef165bdd-e381-44fc-ab8a-a0ef4c6549f9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08495278,
+          -8.74925556
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.19. PISCINA - DA VAL 2/PRAINHA- BANHISTA.",
+        "descricao": "Área de banho destinada ao uso turístico empresarial ou de base comunitária e ao uso recreativo, comportando a pesca artesanal, conforme a vocação local. O uso da piscina pelas atividades náuticas está condicionado aos parâmetros de conservação ambiental definidos pela APA de Guadalupe e pela APA Costa dos Corais, incluindo a capacidade de carga. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.74925556,
+        "longitude": -35.08495278,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "c78dd14b-8f34-4647-9348-0b323945345f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08516667,
+          -8.75125556
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.20. PISCINA - DA VAL 1 - BANHISTA.",
+        "descricao": "Área de banho destinada ao uso turístico de base comunitária, comportando a pesca artesanal, conforme a vocação local. O uso da piscina pelas atividades náuticas está condicionado aos parâmetros de conservação ambiental definidos pela APA de Guadalupe e pela APA Costa dos Corais, incluindo a capacidade de carga. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.75125556,
+        "longitude": -35.08516667,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "e35da708-94bf-4ffe-8994-8dc1048b3102"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.085675,
+          -8.75961944
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.21. PISCINA - PIRAMBU DO SUL - ATIVIDADE DE MERGULHO.",
+        "descricao": "Área destinada ao uso turístico de base comunitária para mergulho livre, comportando a pesca artesanal, conforme a vocação local. O uso da piscina pelas atividades náuticas está condicionado aos parâmetros de conservação ambiental definidos pela APA de Guadalupe e pela APA Costa dos Corais, incluindo a capacidade de carga. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.75961944,
+        "longitude": -35.085675,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "2d18919d-a6ad-498a-a0fc-9940d8d77cc8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08917778,
+          -8.75899444
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.22. TRÊS CABEÇOS - ATIVIDADE DE MERGULHO.",
+        "descricao": "Área destinada ao uso turístico de base comunitária para mergulho livre, comportando a pesca artesanal, conforme a vocação local. O uso da piscina pelas atividades náuticas está condicionado aos parâmetros de conservação ambiental definidos pela APA de Guadalupe e pela APA Costa dos Corais, incluindo a capacidade de carga. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.75899444,
+        "longitude": -35.08917778,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "0ec6fdef-3530-48bd-b53f-8f3093074e54"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08939722,
+          -8.76082778
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.23. PISCINA DO FORTE 1 - BANHISTA.",
+        "descricao": "Área de banho destinada ao uso turístico empresarial ou de base comunitária e ao uso recreativo, comportando a pesca artesanal, conforme a vocação local. O uso da piscina pelas atividades náuticas está condicionado aos parâmetros de conservação ambiental definidos pela APA de Guadalupe e pela APA Costa dos Corais, incluindo a capacidade de carga. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.76082778,
+        "longitude": -35.08939722,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "6b4c3e8e-4b7a-4bfb-94b2-817ade9e4558"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09148611,
+          -8.76110833
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.24. PISCINA DO FORTE 2 - ATIVIDADE DE MERGULHO.",
+        "descricao": "Área preferencialmente para mergulho livre, podendo comportar banhistas nas ocasiões de baixa-mar de sizígia e comportando a pesca artesanal, conforme a vocação local. O uso da piscina pelas atividades náuticas está condicionado aos parâmetros de conservação ambiental definidos pela APA de Guadalupe e pela APA Costa dos Corais, incluindo a capacidade de carga. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.76110833,
+        "longitude": -35.09148611,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "f9e136b8-c6a8-4d3d-91a1-14df5af7ce81"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07115,
+          -8.67023333
+        ]
+      },
+      "properties": {
+        "nome_placa": "AS 1.2.1. GAMELA/AVER O MAR - BANHISTA",
+        "descricao": "Área destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.67023333,
+        "longitude": -35.07115,
+        "subzona": "Subzona Mar de Dentro",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "9e9412d6-aaee-4c85-b72f-f018e3395118"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07128611,
+          -8.67132778
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.2.2 GAMELA/AVER O MAR - EMBARQUE/DESEMBARQUE.",
+        "descricao": "Área pública destinada ao embarque/desembarque de passageiros, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente. É permitida a permanência da embarcação na Área Seletiva no máximo por 20 minutos.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.67132778,
+        "longitude": -35.07128611,
+        "subzona": "Subzona Mar de Dentro",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "64a7d16b-8824-4ecb-b1f3-5ba13cbc858d"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07092778,
+          -8.66926944
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.2.3 GAMELA/AVER O MAR - EMBARQUE/DESEMBARQUE DE EMBARCAÇÃO DE TURISMO.",
+        "descricao": "Área pública destinada preferencialmente ao embarque/desembarque de passageiros das embarcações de turismo náutico, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente. É permitida a permanência da embarcação na Área Seletiva no máximo por 20 minutos.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.66926944,
+        "longitude": -35.07092778,
+        "subzona": "Subzona Mar de Dentro",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "92361e58-9292-4552-9d50-edffc661a1e6"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08061389,
+          -8.68926389
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.2.4. TEJUCUSSÚ PROTEÇÃO DO BANCO DE AREIA.",
+        "descricao": "Área que contribui para a manutenção dos terraços marinhos e falésias, paisagem costeira única no Estado de Pernambuco. Por isso, proíbe-se retirada e mobilização de sedimento, abertura de canal, além de comercialização de comida e bebida e festa náutica no local.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.68926389,
+        "longitude": -35.08061389,
+        "subzona": "Subzona Mar de Dentro",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "c85beab7-0316-46dd-9504-8c1580f77ec0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08875278,
+          -8.73438611
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.2.5. BANANABOAT - QUIOSQUE DO FUSCA - EMBARQUE/DESEMBARQUE",
+        "descricao": "Área destinada ao embarque e desembarque das atividades náuticas de lazer rebocada, como bananaboat e discoboat, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.73438611,
+        "longitude": -35.08875278,
+        "subzona": "Subzona Mar de Dentro",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "0b1c9b8d-bb76-4e35-832e-e0dc6fc4b7ad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08827222,
+          -8.72794722
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.2.6. BANANABOAT - CAMPAS",
+        "descricao": "Área destinada à prática das atividades náuticas de lazer rebocada, como bananaboat e discoboat, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.72794722,
+        "longitude": -35.08827222,
+        "subzona": "Subzona Mar de Dentro",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "dd31b4c0-6f11-4fcc-b4d1-dbdeaf2701e7"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10459444,
+          -8.69603611
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.1.1 MANGUEIRA - EMBARQUE / DESEMBARQUE DE EMBARCAÇÃO DE TURISMO DE BASE COMUNITÁRIA E PESCA ARTESANAL",
+        "descricao": "Área destinada ao embarque, desembarque e fundeio de embarcações ligadas ao turismo de base comunitária e à pesca artesanal. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.69603611,
+        "longitude": -35.10459444,
+        "subzona": "Subzona Rio Ariquindá",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "a129eb03-e6fc-4aa8-bc65-a9d7da4d39a4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10509444,
+          -8.69878889
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.1.2 AMARAGI - EMBARQUE / DESEMBARQUE E FUNDEIO DE EMBARCAÇÃO DE TURISMO DE BASE COMUNITÁRIA E PESCA ARTESANAL",
+        "descricao": "Área destinada ao embarque, desembarque e fundeio de embarcações ligadas ao turismo de base comunitária e à pesca artesanal. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.69878889,
+        "longitude": -35.10509444,
+        "subzona": "Subzona Rio Ariquindá",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "9dc142b4-7aae-4b42-9bf7-a4a30386dfad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10415278,
+          -8.70885278
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.1.3 PORTO DA FOLHA - APOIO À PESCA ARTESANAL",
+        "descricao": "Área destinada ao embarque, desembarque e fundeio de embarcações ligadas à pesca artesanal. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.70885278,
+        "longitude": -35.10415278,
+        "subzona": "Subzona Rio Ariquindá",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "f0010212-65d2-41fa-8da7-e7666d1ff319"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09678611,
+          -8.68946667
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.1 PRAINHA - BRINQUEDOS NÁUTICOS",
+        "descricao": "Área destinada ao uso de atividades náuticas de lazer não motorizadas, como caiaque e Stand Up Paddle, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.68946667,
+        "longitude": -35.09678611,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "0bdfedfc-5019-4959-8567-5a614da831eb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09609722,
+          -8.68957778
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.2 PRAINHA -BANHISTAS",
+        "descricao": "Área destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.68957778,
+        "longitude": -35.09609722,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "f3d2ec7a-727e-43d7-af13-4914c0e6fe0c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09541111,
+          -8.689825
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.3 PRAINHA - EMBARQUE / DESEMBARQUE DE EMBARCAÇÃO DE TURISMO",
+        "descricao": "Área destinada às embarcações de turismo náutico, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.689825,
+        "longitude": -35.09541111,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "481d0003-8d59-43a8-b4a6-1db84339a768"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08986944,
+          -8.69307778
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.4 IGREJINHA - BANHISTAS 1",
+        "descricao": "Área destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.69307778,
+        "longitude": -35.08986944,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "f4174bf6-6ddf-4258-8afa-067a062a6fe2"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08861111,
+          -8.69454167
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.5 IGREJINHA - EMBARQUE/DESEMBARQUE DE EMBARCAÇÃO DE TURISMO",
+        "descricao": "Área destinada às embarcações de turismo náutico, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.69454167,
+        "longitude": -35.08861111,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "d0c18db6-7e91-4993-b8b2-f4b347307634"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08795,
+          -8.69521111
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.6 IGREJINHA - BANHISTAS 2",
+        "descricao": "Área destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.69521111,
+        "longitude": -35.08795,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "907c193a-b283-4d7c-9692-418b13f601bc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08468611,
+          -8.69740278
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.7 RESTAURANTE 1-BANHISTAS",
+        "descricao": "Área destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.69740278,
+        "longitude": -35.08468611,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "6d1a62dd-b6b0-4f2d-91e3-e750c8fb3fcd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08318611,
+          -8.69852778
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.8 RESTAURANTE 1 -EMBARQUE / DESEMBARQUE DE EMBARCAÇÃO DE TURISMO",
+        "descricao": "Área destinada às embarcações de turismo náutico, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.69852778,
+        "longitude": -35.08318611,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "6960ade1-1461-4e2d-bda8-b02ef92f8dbb"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08260556,
+          -8.69944167
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.9 RESTAURANTE 1 - BRINQUEDOS NÁUTICOS",
+        "descricao": "Área destinada ao uso preferencial da prática de atividades náuticas de lazer não motorizadas, como caiaque e Stand Up Paddle, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.69944167,
+        "longitude": -35.08260556,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "b65a37f4-f6a3-4c4f-aca5-fbbe099236af"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08040556,
+          -8.70099722
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.10 PONTAL DE CARNEIROS - EMBARQUE / DESEMBARQUE DE EMBARCAÇÃO DE TURISMO",
+        "descricao": "Área destinada às embarcações de turismo náutico, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.70099722,
+        "longitude": -35.08040556,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "d8a600f5-8c71-4816-9dfb-6d158aa8ba0f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07930833,
+          -8.7014
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.11 PONTAL DE CARNEIROS - BRINQUEDOS NÁUTICOS",
+        "descricao": "Área destinada ao uso atividades náuticas de lazer não motorizadas, como caiaque e Stand Up Paddle, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.7014,
+        "longitude": -35.07930833,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "f7b82fdf-3238-4f20-be30-7ea23d9f2695"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07902778,
+          -8.70178333
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.12 PONTAL DE CARNEIROS - BANHISTAS",
+        "descricao": "Área destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.70178333,
+        "longitude": -35.07902778,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "341b8c49-d291-4745-b29f-da90f32dee71"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09282778,
+          -8.68581944
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.13 ARGILA - EMBARQUE / DESEMBARQUE DE EMBARCAÇÃO DE TURISMO DO TIPO CATAMARÃ",
+        "descricao": "Área pública destinada preferencialmente ao embarque/desembarque de passageiros das embarcações de turismo náutico do tipo catamarã, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente. É permitida a permanência da embarcação na Área Seletiva no máximo por 20 minutos.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.68581944,
+        "longitude": -35.09282778,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "8993a018-3727-4991-8e25-35433a150df9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09256389,
+          -8.68564167
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.14 ARGILA - BANHISTA 1",
+        "descricao": "Área pública destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.68564167,
+        "longitude": -35.09256389,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "1bf4ae6a-b132-4e27-9399-e7a2b9240f09"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09220278,
+          -8.68591389
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.15 ARGILA - EMBARQUE / DESEMBARQUE DE EMBARCAÇÃO DE TURISMO MIÚDA",
+        "descricao": "Área pública destinada preferencialmente ao embarque/desembarque de passageiros das embarcações de turismo náutico do tipo miúda, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente. É permitida a permanência da embarcação na Área Seletiva no máximo por 20 minutos.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.68591389,
+        "longitude": -35.09220278,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "eb275dff-15d3-4a0a-8d59-8975b59e9233"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09206667,
+          -8.686
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.16 ARGILA - FUNDEIO DE EMBARCAÇÕES EXCLUSIVA PARA TRABALHADORES LOCAIS",
+        "descricao": "Área pública destinada ao fundeio de embarcações miúdas ligadas ao transporte dos trabalhadores locais.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.686,
+        "longitude": -35.09206667,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "b0ccc703-e779-4933-a090-556c4c2f5f3a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09181111,
+          -8.68618611
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.17 ARGILA- EMBARQUE / DESEMBARQUE DE EMBARCAÇÃO DE TURISMO MIÚDA",
+        "descricao": "Área pública destinada preferencialmente ao embarque/desembarque de passageiros das embarcações de turismo náutico do tipo miúda, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente. É permitida a permanência da embarcação na Área Seletiva no máximo por 20 minutos.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.68618611,
+        "longitude": -35.09181111,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "7d39792e-49a5-4327-9edf-43bad71436e4"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09157778,
+          -8.68635
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.18 ARGILA - BANHISTA 2",
+        "descricao": "Área pública destinada a banhistas, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.68635,
+        "longitude": -35.09157778,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "be9ce7eb-f3af-4f5c-b062-b1dd7581f0a8"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09105556,
+          -8.686475
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.19 ARGILA- EMBARQUE / DESEMBARQUE DE EMBARCAÇÃO DO TIPO CATAMARÃ",
+        "descricao": "Área pública destinada preferencialmente ao embarque/desembarque de passageiros das embarcações de turismo náutico do tipo catamarã, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente. É permitida a permanência da embarcação na Área Seletiva no máximo por 20 minutos.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.686475,
+        "longitude": -35.09105556,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "2477d59a-00d2-44f3-b981-3d06a7a126c9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.095475,
+          -8.68493889
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.20 GUADALUPE - EMBARQUE / DESEMBARQUE",
+        "descricao": "Área pública destinada ao embarque/desembarque de passageiros, podendo ser compartilhada com atividades da pesca artesanal, as quais não conflitem por espaço nem ofereçam risco de acidente. É permitida a permanência da embarcação na Área Seletiva no máximo por 20 minutos. Contempla um píer flutuante conectado a sua margem, defrontante com a garagem náutica, com 5.0 m de comprimento e numa largura máxima de 1.50m, em direção ao estuário.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.68493889,
+        "longitude": -35.095475,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "b8ad0bbe-3270-45b2-a7d3-17db3871aa23"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10199167,
+          -8.68440833
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 2.4.21 PÍER MARIASSÚ - EMBARQUE/DESEMBARQUE",
+        "descricao": "Área pública destinada ao embarque e desembarque.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.68440833,
+        "longitude": -35.10199167,
+        "subzona": "Subzona Carneiros/ Guadalupe - Foz Rio Formoso",
+        "zona": "Zona Estuarina Santuário do Mero",
+        "qr_code_uuid": "58c945ce-de90-406a-af28-3ea751e0e2dd"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.07120556,
+          -8.66918333
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 3.1.1 AVER O MAR - ESTACIONAMENTO DE BARCOS DE PESCA",
+        "descricao": "Área destinada apenas ao estacionamento de embarcações de pesca.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.66918333,
+        "longitude": -35.07120556,
+        "subzona": "Subzona Praia da Gamela/Aver o Mar",
+        "zona": "Zona Ambiente Praial",
+        "qr_code_uuid": "85d90eab-1dc3-41dc-95f3-4187d84f56fc"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08699444,
+          -8.74825833
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 3.6.1. TAMANDARÉ PESCA 1 - ESTACIONAMENTO",
+        "descricao": "Área destinada apenas ao estacionamento de embarcações de pesca.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.74825833,
+        "longitude": -35.08699444,
+        "subzona": "Subzona Praia de Tamandaré",
+        "zona": "Zona Ambiente Praial",
+        "qr_code_uuid": "b3c655b4-1f6e-494b-b8fe-ee7d61d3bbae"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.08899444,
+          -8.74995
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 3.6.2. JANGADEIROS TAMANDARÉ 1 - ESTACIONAMENTO",
+        "descricao": "Área destinada apenas ao estacionamento de embarcações de pesca e das Jangadas utilizadas na atividade turística náutica.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.74995,
+        "longitude": -35.08899444,
+        "subzona": "Subzona Praia de Tamandaré",
+        "zona": "Zona Ambiente Praial",
+        "qr_code_uuid": "0210c9e6-a89b-4203-b8d1-d37033e7bfa1"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09317222,
+          -8.75564167
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 3.6.3 JANGADEIROS TAMANDARÉ 2 - ESTACIONAMENTO",
+        "descricao": "Área destinada apenas ao estacionamento de embarcações de pesca e das Jangadas utilizadas na atividade turística náutica.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.75564167,
+        "longitude": -35.09317222,
+        "subzona": "Subzona Praia de Tamandaré",
+        "zona": "Zona Ambiente Praial",
+        "qr_code_uuid": "0ce2f305-1e8b-43dc-a516-3e038a0154b9"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.09625556,
+          -8.75861389
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 3.6.4. TAMANDARÉ PESCA 2 - ESTACIONAMENTO",
+        "descricao": "Área destinada apenas ao estacionamento de embarcações de pesca.",
+        "localidade_x": "",
+        "acesso_restrito": false,
+        "atividades_autorizadas": "",
+        "latitude": -8.75861389,
+        "longitude": -35.09625556,
+        "subzona": "Subzona Praia de Tamandaré",
+        "zona": "Zona Ambiente Praial",
+        "qr_code_uuid": "11ef21c1-9261-485b-b7a5-fe31d735667a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.206794,
+          -8.380691
+        ]
+      },
+      "properties": {
+        "nome_placa": "APAG GUADALUPE1 - ZATAN",
+        "descricao": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "localidade_x": "APA Guadalupe",
+        "acesso_restrito": false,
+        "num_embarcacoes_desembarque": 0,
+        "max_pessoas_catamara": 0,
+        "max_pessoas_miudas": 0,
+        "atividades_autorizadas": "Proteção ambiental e biodiversidade",
+        "latitude": -8.380691,
+        "longitude": -35.206794,
+        "subzona": "Area Proteção Ambiental",
+        "zona": "Zona de Proteção Ambiental",
+        "qr_code_uuid": "8c90b78b-9d5c-4751-97fb-e4741c97e28f"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.192853,
+          -8.378933
+        ]
+      },
+      "properties": {
+        "nome_placa": "APAG GUADALUPE2 - ZATAN",
+        "descricao": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "localidade_x": "APA Guadalupe",
+        "acesso_restrito": false,
+        "num_embarcacoes_desembarque": 0,
+        "max_pessoas_catamara": 0,
+        "max_pessoas_miudas": 0,
+        "atividades_autorizadas": "Proteção ambiental e biodiversidade",
+        "latitude": -8.378933,
+        "longitude": -35.192853,
+        "subzona": "Area Proteção Ambiental",
+        "zona": "Zona de Proteção Ambiental",
+        "qr_code_uuid": "973cef54-4d18-4a85-ad5b-ada01e499d7a"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.189359,
+          -8.408161
+        ]
+      },
+      "properties": {
+        "nome_placa": "APAG GUADALUPE3 - ZATAN",
+        "descricao": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "localidade_x": "APA Guadalupe",
+        "acesso_restrito": false,
+        "num_embarcacoes_desembarque": 0,
+        "max_pessoas_catamara": 0,
+        "max_pessoas_miudas": 0,
+        "atividades_autorizadas": "Proteção ambiental e biodiversidade",
+        "latitude": -8.408161,
+        "longitude": -35.189359,
+        "subzona": "Area Proteção Ambiental",
+        "zona": "Zona de Proteção Ambiental",
+        "qr_code_uuid": "c37ef397-a974-41ee-9bd3-dc07a38d7e6e"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.187048,
+          -8.405502
+        ]
+      },
+      "properties": {
+        "nome_placa": "APAG GUADALUPE4 - ZATAN",
+        "descricao": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "localidade_x": "APA Guadalupe",
+        "acesso_restrito": false,
+        "num_embarcacoes_desembarque": 0,
+        "max_pessoas_catamara": 0,
+        "max_pessoas_miudas": 0,
+        "atividades_autorizadas": "Proteção ambiental e biodiversidade",
+        "latitude": -8.405502,
+        "longitude": -35.187048,
+        "subzona": "Area Proteção Ambiental",
+        "zona": "Zona de Proteção Ambiental",
+        "qr_code_uuid": "d81653ad-0207-4b40-9e15-688c84866dee"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.183938,
+          -8.402844
+        ]
+      },
+      "properties": {
+        "nome_placa": "APAG GUADALUPE5 - ZATAN",
+        "descricao": "APA DE GUADALUPE - APAG - DECRETO nº 19.635/1997- Área de proteção e conservação dos sistemas naturais essenciais à Biodiversidade - Recursos hídricos, População local, Ecossistemas e Desenvolvimento Sustentável",
+        "localidade_x": "APA Guadalupe",
+        "acesso_restrito": false,
+        "num_embarcacoes_desembarque": 0,
+        "max_pessoas_catamara": 0,
+        "max_pessoas_miudas": 0,
+        "atividades_autorizadas": "Proteção ambiental e biodiversidade",
+        "latitude": -8.402844,
+        "longitude": -35.183938,
+        "subzona": "Area Proteção Ambiental",
+        "zona": "Zona de Proteção Ambiental",
+        "qr_code_uuid": "c43f13b3-e0c8-48c6-a102-a6775a97d67b"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.102544,
+          -8.280183
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 4.1 ILHA DE SANTO ALEIXO -Praia",
+        "descricao": "Banhistas compartilhada com pesca artesanal; Permitido 364 Usuários em simultâneo",
+        "localidade_x": "Ilha de Santo Aleixo - Praia",
+        "acesso_restrito": false,
+        "max_pessoas_miudas": 200,
+        "atividades_autorizadas": "Banhistas",
+        "latitude": -8.280183,
+        "longitude": -35.102544,
+        "subzona": "Subzona Plataforma Continental",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "bbd389f3-f645-4478-af2e-e988daa46b99"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.10134,
+          -8.281597
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 4.2 ILHA DE SANTO ALEIXO- Piscina",
+        "descricao": "Conservação da Biodiversidade Marinha; Proteção aos Ambientes Recifais  (309 usuários por dia)",
+        "localidade_x": "Ilha de Santo Aleixo - Piscina",
+        "acesso_restrito": false,
+        "num_embarcacoes_desembarque": 0,
+        "max_pessoas_catamara": 0,
+        "max_pessoas_miudas": 0,
+        "atividades_autorizadas": "Banhistas",
+        "latitude": -8.281597,
+        "longitude": -35.10134,
+        "subzona": "Subzona Plataforma Continental",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "0989b7b5-1bd2-472c-8c6d-174c7b3a8120"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.102594,
+          -8.280641
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 4.3 Ilha de Santo Aleixo - Fundeio de embarcações",
+        "descricao": "Conservação da Biodiversidade Marinha; Proteção aos Ambientes Recifais",
+        "localidade_x": "Ilha de Santo Aleixo - Fundeio",
+        "acesso_restrito": false,
+        "num_embarcacoes_desembarque": 17,
+        "max_pessoas_catamara": 0,
+        "max_pessoas_miudas": 0,
+        "atividades_autorizadas": "Fundeio de até 17 embarcações",
+        "latitude": -8.280641,
+        "longitude": -35.102594,
+        "subzona": "Subzona Plataforma Continental",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "c76b5ae7-ec6a-4e7a-a904-b232c99a1d35"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.102317,
+          -8.281417
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 4.4 Ilha de Santo Aleixo - Embarque/Desembarque",
+        "descricao": "Conservação da Biodiversidade Marinha; Proteção aos Ambientes Recifais ; E/D embarcações de turismo náutico; pesca artesanal",
+        "localidade_x": "Ilha de Santo Aleixo - E/D PLANO DE MANEJO (ESTUDO DE CARGA/SUPORTE E OPERACIONAL DE ATIVIDADES TURISMO NÁUTICO SUSTENTÁVEL",
+        "acesso_restrito": false,
+        "num_embarcacoes_desembarque": 2,
+        "max_pessoas_catamara": 0,
+        "max_pessoas_miudas": 0,
+        "atividades_autorizadas": "Embarque/Desembarque",
+        "latitude": -8.281417,
+        "longitude": -35.102317,
+        "subzona": "Subzona Plataforma Continental",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "b13b0ee1-5141-4abf-884d-498db9474b5c"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.06564166666666,
+          -8.672788888888888
+        ]
+      },
+      "properties": {
+        "nome_placa": "A.S. 1.1.1 PISCINA GAMELA/AVER O MAR - BANHISTA",
+        "descricao": "(120m de comprimento e 30m de largura) Localizada na coordenada geográfica: 8°40'22.04\"S, 35° 3'56.31\"O [Área de banho destinada ao uso turístico empresarial ou de base comunitária e ao uso recreativo, comportando a pesca artesanal, conforme a vocação local. O uso da piscina pelas atividades náuticas está condicionado aos parâmetros de conservação ambiental definidos pela APA de Guadalupe, incluindo a capacidade de carga. O fundeio das embarcações deverá ser realizado na borda da área seletiva, em local destinado para tal fim.]",
+        "localidade_x": "PISCINA GAMELA/AVER O MAR",
+        "acesso_restrito": false,
+        "latitude": -8.672788888888888,
+        "longitude": -35.06564166666666,
+        "subzona": "Subzona Complexo Recifal",
+        "zona": "Zona Marítima",
+        "qr_code_uuid": "20d5434b-ca68-4928-b1cb-26bbd43b1ad9"
+      }
+    }
+  ]
+}

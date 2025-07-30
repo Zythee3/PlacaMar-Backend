@@ -1,6 +1,11 @@
-Django>=4.2
-djangorestframework>=3.14
-psycopg2-binary>=2.9
-python-decouple>=3.8
-whitenoise>=6.0 
-djangorestframework-simplejwt
+Django==5.0.6
+djangorestframework==3.15.1
+djangorestframework-simplejwt==5.3.1
+django-cors-headers==4.3.1
+python-decouple==3.8
+psycopg2-binary
+djangorestframework-gis==1.0
+pandas
+gunicorn
+whitenoise
+dj-database-url
