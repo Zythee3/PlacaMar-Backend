@@ -28,7 +28,7 @@ INSTALLED_APPS = [
     'django.contrib.gis',
     'corsheaders',
     'usuarios',
-    'api.placas',
+    
     'core_admin',
     'zonas',
     'conteudo_educativo',
