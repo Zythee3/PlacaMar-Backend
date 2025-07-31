@@ -1,6 +1,6 @@
 from rest_framework import generics
-from areas.models import AreaPermitida
-from areas.serializers import AreaSerializer
+from api.areas.models import AreaPermitida
+from api.areas.serializers import AreaSerializer
 from rest_framework.permissions import AllowAny
 
 class AreaList(generics.ListAPIView):
