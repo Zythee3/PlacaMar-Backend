@@ -1,17 +1,34 @@
+
+import json
+import os
 from django.core.management.base import BaseCommand
-from django.contrib.gis.gdal import DataSource
-from api.areas.models import Area
+from api.areas.models import AreaPermitida
+from django.contrib.gis.geos import Polygon
 
 class Command(BaseCommand):
-    help = 'Importa áreas protegidas a partir do GeoJSON'
+    help = 'Importa as áreas do arquivo areas.geojson para o banco de dados'
 
     def handle(self, *args, **kwargs):
-        ds = DataSource('api/areas/data/Areas.geojson')
-        layer = ds[0]
+        caminho = os.path.join('api', 'placas', 'data', 'areas.geojson')
 
-        for feat in layer:
-            geom = feat.geom.geos
-            name = feat.get('name')
-            Area.objects.create(name=name, geom=geom)
+        with open(caminho, 'r', encoding='utf-8') as f:
+            geojson = json.load(f)
 
-        self.stdout.write(self.style.SUCCESS('Áreas importadas com sucesso!'))
+        AreaPermitida.objects.all().delete()
+        count = 0
+
+        for feature in geojson['features']:
+            props = feature['properties']
+            geom = feature['geometry']
+
+            if geom['type'] == 'Polygon':
+                coords = geom['coordinates'][0]
+                polygon = Polygon(coords)
+
+                AreaPermitida.objects.create(
+                    nome=props.get('name', 'Sem nome'),
+                    geom=polygon
+                )
+                count += 1
+
+        self.stdout.write(self.style.SUCCESS(f'{count} áreas importadas com sucesso.'))
